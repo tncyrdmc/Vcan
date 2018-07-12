@@ -1,0 +1,53 @@
+.header-text{
+  position: relative;
+  top: 180px;
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.header-text h1{
+  font-size: 34px;
+}
+/*conatct form*/
+.contact-container{
+    
+     width: 80%;
+     padding: 10px;
+     margin: 100px auto;
+     box-sizing: border-box;
+ }
+ .contact-text {
+    width: 80%;
+    padding: inherit;
+    box-sizing: border-box;
+    margin: 0 auto;
+ }
+ .contact-text  .form-container {
+    margin: 40px 0;
+ }
+ .contact-text  .form-container input ,.contact-text .form-container textarea{
+    border: 2px solid #eeeeee;
+    padding: 10px;
+    width: 80%;
+
+ }
+ .contact-text .form-container textarea{
+    height: 150px;
+ }
+ .contact-text  .form-container input[type = "checkbox"]{
+    width: auto;
+ }
+ select {
+   margin-left: 10px;
+   padding: 10px;
+ }
+ .contact-text .form-container label{
+   margin-top: 10px;
+ }
+ .contact-text .form-container ul{
+    text-transform: capitalize;
+    font-size: 12px;
+    list-style: none;
+    width: 100%;
+ }
