@@ -15,29 +15,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>ABOUT US</title>
 
-    <style>
-        .abt{
-            width: 80%;
-            height: 100%;
-            margin: 10px auto;
-            padding: 10px;
-            box-sizing: border-box;
-            background-color: while;
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-            z-index: 2px;
-        }
-        .abt-text-contain{
-            color: #5a5f63;
-            margin: 20px auto;
-            width: 80%;
-            padding: 10px;
-            overflow-wrap:  break-word;
-        }
-       .abt-text-contain ul{
-        text-align: left;
-        list-style-color: #23ccf9;
-       }
-    </style>
 </head>
 <body>
     <header>
@@ -53,8 +30,8 @@
 
     <!-- main contain -->
     <section>
-        <div class="abt">
-            <div class="abt-text-contain">
+        <div class="abt2">
+            <div class="abt-text-contain2">
                 <p>Zenith Software Solutions was founded in Kakinada Andhra Pradesh, which  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk and Voice SMS, Whatsapp & Email Marketing softwares.</p>
                 <p>We are considered one of the best and the leading in Kakinada, Andhra Pradesh with our main Aim is being complete customer satisfaction. And We also Providing the Services all around the Andhra Pradesh(Vijayawada,Kakinada,Rajahmundry,Vizianagaram,Srikakulam,Guntur etc), Telangana(Hyderabad) & All over India .</p>
                 <p>Our team is a complete and strategic mix of professionals from Technology, Marketing and Business Management. Our team of professionals use the most up to date technology for any of your need related to Softwares, Websites, E-commerce, Web Based Softwares and Solutions, PPC etc. We give unique and personalised web based solutions with quality at competitive market rates.</p>

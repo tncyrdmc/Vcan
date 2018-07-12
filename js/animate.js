@@ -46,5 +46,15 @@ $(function(){
 		
 	});
 
+	var $signUpForm = $('#sign-up');
+	var $signUpButtom = $('#sign-bt');
+
+	$signUpForm.hide();
+
+	$signUpButtom.on('click',function(e){
+		e.preventDefault();
+		$signUpForm.delay(400).slideToggle();
+	});
+
 	
 });

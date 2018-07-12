@@ -38,7 +38,7 @@
 
 	<!--chat form-->
 	<div id="chat-container" class="chat-container">
-		<span><a href="" id="chat-bt">SUPPORT</a></span>
+		<span><a href="" id="chat-bt">support</a></span>
 		<div class="chat-form" >
 		    <form action="" id="chat-form">
 		    	<div>

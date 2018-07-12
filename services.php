@@ -36,7 +36,7 @@
                          <div class="row-text">
                              <p>Our website development process is in the making  structured for efficiency and high-quality output</p>
                              <div class="">
-                                <a href="http://">Know More</a>
+                                <a href="web-development.php">Know More</a>
                              </div>
                          </div>
                      </div>
@@ -45,7 +45,7 @@
                          <div class="row-text">
                              <p>The appearance of your website make strong impression on the image of your company. When you own a business</p>
                              <div class="">
-                                <a href="http://">Know More</a>
+                                <a href="web-design.php">Know More</a>
                              </div>                     
                          </div>
                      </div>
@@ -54,7 +54,7 @@
                         <div class="row-text">
                              <p> In Zenith,the best place to host your business or personal website. We do everything for you</p>
                              <div class="">
-                                <a href="http://">Know More</a>
+                                <a href="web-hosting-service.php">Know More</a>
                              </div>
                         </div>
                      </div>

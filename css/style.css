@@ -1,3 +1,11 @@
+/*header bg for contact , about and instant quote pages*/
+.header-bg{
+    width: 100%;
+    height: 400px;
+    background-color: #23ccf9;
+    text-align: center;
+    
+}
 .header-text{
   position: relative;
   top: 180px;
@@ -8,6 +16,27 @@
 }
 .header-text h1{
   font-size: 34px;
+}
+
+.abt2{
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.abt-text-contain2{
+    color: #5a5f63;
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+    overflow-wrap:  break-word;
+}
+.abt-text-contain2 ul{
+text-align: left;
+list-style-color: #23ccf9;
+
 }
 /*conatct form*/
 .contact-container{
@@ -51,3 +80,14 @@
     list-style: none;
     width: 100%;
  }
+  .contact-text  .form-container input[type = "submit"],.sign-up input[type = "submit"]{
+    width: auto;
+    background-color: pink;
+    color: #fff;
+    border: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.1s ease-in 0.2s;
+ }
+  .contact-text  .form-container input[type = "submit"]:hover,.sign-up input[type = "submit"]:hover{
+    background-color:  #5a5f63;
+  }
