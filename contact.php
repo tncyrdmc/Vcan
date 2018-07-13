@@ -18,29 +18,36 @@
 
     <title>CONTACT US</title>
     <style type="text/css">
-        .contact-container{
+    .header-bg{
+        background-image: url("img/pavan-trikutam-1660-unsplash.jpg");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .contact-container{
     
      width: 80%;
      padding: 10px;
      margin: 100px auto;
      box-sizing: border-box;
- }
- .contact-text {
-    width: 80%;
-    padding: inherit;
-    box-sizing: border-box;
-    margin: 0 auto;
- }
- .contact-text  .form-container {
-    margin: 40px 0;
- }
-  .contact-text  .form-container input ,.contact-text .form-container textarea{
+    }
+    .contact-text {
+      width: 80%;
+       padding: inherit;
+       box-sizing: border-box;
+       margin: 0 auto;
+    }
+    .contact-text  .form-container {
+       margin: 40px 0;
+    }
+   .contact-text  .form-container input ,.contact-text .form-container textarea{
     border: 2px solid #eeeeee;
     padding: 10px;
     width: 80%;
 
-  }
-  .contact-text .form-container textarea{
+    }
+    .contact-text .form-container textarea{
     height: 150px;
   }
     .contact-text  .form-container input[type = "checkbox"]{
@@ -60,6 +67,7 @@
     width: 100%;
  }
 
+
     </style>
 </head>
 <body>
@@ -67,6 +75,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
+            <div class="full-bg"></div>
             <div class="header-text">
                 <h1 style="color:white">CONTACT US</h1>
             </div>
@@ -132,9 +141,7 @@
                         </div>
                         <div>
                             <label>Tell More About The Project</label>
-                            <textarea>
-                                
-                            </textarea>
+                            <textarea></textarea>
                         </div>
                         <div>
                             <input type="submit" name="" value="Submit">

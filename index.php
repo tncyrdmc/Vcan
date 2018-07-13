@@ -44,69 +44,78 @@
 	<!--Our serices section-->
 	<section id="our-services">
 		<div class="services-container">
-			<div style="margin: 70px 0">
-				<h2>OUR SERVICES</h2>
-			</div>
+			<h2>OUR SERVICES</h2>
 			<div class="box-container">
-				<div class="s-rows">
-				     <div class="s-row">
-						 <h5>WEB DEVELOPMENT</h5>
-						 <div class="row-text">
-							 <p>Our website development process is in the making  structured for efficiency and high-quality output</p>
-							 <div class="r-bt">
-			                	<a href="web-development.php">Know More</a>
-			                 </div>
-						 </div>
+                 <div class="s-rows">
+                     <div class="s-row">
+                        <div class="s-icon"></div>
+                         <h5>WEB DEVELOPMENT</h5>
+                         <div class="row-text">
+                             <p>Our website development process is in the making  structured for efficiency and high-quality output</p>
+                         </div>
+                         <div class="r-bt">
+                            <a href="web-development.php">Know More</a>
+                         </div>
                      </div>
                      <div class="s-row">
-					     <h5>WEB DESIGN</h5>
-					     <div class="row-text">
-							 <p>The appearance of your website make strong impression on the image of your company. When you own a business</p>
-							 <div class="r-bt">
-			                	<a href="web-design.php">Know More</a>
-			                 </div>				     	
-					     </div>
+                         <div class="s-icon"></div>
+                         <h5>WEB DESIGN</h5>
+                         <div class="row-text">
+                             <p>The appearance of your website make strong impression on the image of your company. When you own a business</p>                   
+                         </div>
+                         <div class="r-bt">
+                            <a href="web-design.php">Know More</a>
+                        </div>  
                      </div>
                      <div class="s-row">
-                     	<h5>WEB HOSTING SERVICES</h5>
-                     	<div class="row-text">
-							 <p> In Zenith,the best place to host your business or personal website. We do everything for you you from domain names, web design ...</p>
-							 <div class="r-bt">
-			                	<a href="web-hosting-service.php">Know More</a>
-			                 </div>
-                     	</div>
+                        <div class="s-icon"></div>
+                        <h5>WEB HOSTING SERVICES</h5>
+                        <div class="row-text">
+                             <p> In Zenith,the best place to host your business or personal website. We do everything for you from domain names, web design ...</p>
+                        </div>
+                        <div class="r-bt">
+                          <a href="web-hosting-service.php">Know More</a>
+                        </div>
                      </div>
-				</div>
-				<div class="s-rows">
-				     <div class="s-row">
-				     	<h5>BULK SMS</h5>
-				     	<div class="row-text">
-							 <p>We are offering both transactional and promotional SMS services to our clients. Users can set their own Sender ID.</p>
-							 <div class="r-bt">
-			                	<a href="http://">Know More</a>
-			                 </div>
-				     	</div>
+                </div>
+
+                <div class="s-rows">
+                     <div class="s-row">
+                        <div class="s-icon"></div>
+                        <h5>DIGITAL MARKETING</h5>
+                        <div class="row-text">
+                             <p>SEO Services, 
+                                Search Engine Marketing, 
+                                Social Media Marketing, 
+                                Pay Per Click Advertising, 
+                                SEO Copywriting, 
+                                Link Building...</p>
+                         </div>
+                         <div class="r-bt">
+                             <a href="http://">Know More</a>
+                         </div>
                      </div>
                      <div class="s-row">
-                     	<h5>VOICE SMS</h5>
-                     	<div class="row-text">
-							 <p>Bulk Voice SMS are pre-recorded voice messages to a mobile or landline networks across the country.</p>
-							 <div class="r-bt">
-			                	<a href="http://">Know More</a>
-			                 </div>
-                     	</div>                     
+                        <div class="s-icon"></div>
+                        <h5>VOICE SMS & BULK SMS</h5>
+                        <div class="row-text">
+                             <p>Bulk Voice SMS are pre-recorded voice messages to a mobile or landline networks across the country.</p>
+                        </div> 
+                        <div class="r-bt">
+                            <a href="bulk-sms.php">Know More</a>
+                        </div>                    
                      </div>
                      <div class="s-row">
-                     	<h5>EMAIL MARKETING</h5>
-                     	<div class="row-text">
-							 <p>On this competitive world everyone wants to send bulk emails to get more business but most of them don't know how</p>
-							 <div class="r-bt">
-			                	<a href="http://">Know More</a>
-			                 </div>
-						 </div>
+                        <div class="s-icon"></div>
+                        <h5>EMAIL MARKETING</h5>
+                        <div class="row-text">
+                             <p>On this competitive world everyone wants to send bulk emails to get more business</p>
+                         </div>
+                         <div class="r-bt">
+                            <a href="http://">Know More</a>
+                         </div>
                      </div>
-				</div>
-			</div>
+                </div>
 			<div class="s-bt">
 				<a href="services.php">More services</a>
 			</div>
@@ -116,6 +125,7 @@
 	<!--Recent works-->
 	<section id="recent-work">
 		<div class="rt-wt-container">
+		<h2>RECENT WORKS</h2>
 
 		</div>
 	</section>
@@ -123,6 +133,7 @@
 	<!--What our costumer say about us-->
 	<section id="ct-fb">
 		<div class="ct-fb">
+			<h2>THEY SAY ABOUT US</h2>
 
 		</div>
 	</section>

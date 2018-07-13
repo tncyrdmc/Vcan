@@ -14,9 +14,9 @@ $(function(){
 	$window.on('scroll',function(){
 		var $top = $(this).scrollTop();
 
-		if ($top > 200) {
+		if ($top > 50) {
 			$nav.css({
-				'background-color': 'white',
+				'background-color': '#23ccf9',
 				'box-shadow': '0px 2px 5px rgba(0, 0, 0, 0.2)'
 			});
 			

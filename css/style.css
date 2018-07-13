@@ -7,15 +7,16 @@
     
 }
 .header-text{
-  position: relative;
+  position: absolute;
   top: 180px;
-  width: 50%;
+  width: 100%;
   height: 300px;
   padding: 10px;
-  margin: 0 auto;
+  z-index: 1;
 }
 .header-text h1{
   font-size: 34px;
+
 }
 
 .abt2{

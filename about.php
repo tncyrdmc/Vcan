@@ -13,6 +13,16 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style type="text/css">
+        .header-bg{
+            background-image: url("img/jeremy-perkins-291861-unsplash.jpg");
+            background-position: bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
     <title>ABOUT US</title>
 
 </head>
@@ -22,6 +32,7 @@
         <?php include "nav.php";?>
         
         <div class="header-bg">
+            <div class="full-bg"></div>
             <div class="header-text">
                 <h1 style="color:white">ABOUT ZENITH SOFTWARE SOLUTIONS</h1>
             </div>

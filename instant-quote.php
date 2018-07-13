@@ -15,7 +15,15 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <style type="text/css">
+        .header-bg{
+            background-image: url("img/rawpixel-678089-unsplash.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
     <title>CONTACT US</title>
 </head>
 <body>
@@ -23,6 +31,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
+            <div class="full-bg"></div>
             <div class="header-text">
                 <h1 style="color:white">INSTANT QUOTE</h1>
             </div>
@@ -88,9 +97,7 @@
                         </div>
                         <div>
                             <label>Tell More About The Project</label>
-                            <textarea>
-                                
-                            </textarea>
+                            <textarea></textarea>
                         </div>
                         <div>
                             <input type="submit" name="" value="Submit">

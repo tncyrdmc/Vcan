@@ -13,6 +13,16 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style type="text/css">
+      .header-bg{
+          background-image: url("img/william-iven-19843-unsplash.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+    </style>
     <title>WEB DESIGN</title>
 </head>
 <body>
@@ -20,6 +30,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
+            <div class="full-bg"></div>
              <div class="header-text">
                 <h1 style="color:white">WEB DESIGN</h1>
             </div>
