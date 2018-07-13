@@ -52,7 +52,7 @@
                      <div class="s-row">
                         <h5>WEB HOSTING SERVICES</h5>
                         <div class="row-text">
-                             <p> In Zenith,the best place to host your business or personal website. We do everything for you</p>
+                             <p> In Zenith,the best place to host your business or personal website. We do everything for you from domain names, web design ...</p>
                              <div class="">
                                 <a href="web-hosting-service.php">Know More</a>
                              </div>
@@ -61,20 +61,25 @@
                 </div>
                 <div class="s-rows">
                      <div class="s-row">
-                        <h5>BULK SMS</h5>
+                        <h5>DIGITAL MARKETING</h5>
                         <div class="row-text">
-                             <p>We are offering both transactional and promotional SMS services to our clients. Users can set their own Sender ID.</p>
+                             <p>SEO Services, 
+                                Search Engine Marketing, 
+                                Social Media Marketing, 
+                                Pay Per Click Advertising, 
+                                SEO Copywriting, 
+                                Link Building...</p>
                              <div class="">
                                 <a href="http://">Know More</a>
                              </div>
-                        </div>
+                         </div>
                      </div>
                      <div class="s-row">
-                        <h5>VOICE SMS</h5>
+                        <h5>VOICE SMS & BULK SMS</h5>
                         <div class="row-text">
                              <p>Bulk Voice SMS are pre-recorded voice messages to a mobile or landline networks across the country.</p>
                              <div class="">
-                                <a href="http://">Know More</a>
+                                <a href="bulk-sms.php">Know More</a>
                              </div>
                         </div>                     
                      </div>
@@ -100,28 +105,7 @@
                             <a href="http://">Know More</a>
                         </div>
                      </div>
-                     <div class="s-row">
-                        <h5>PPC MANAGMENT</h5>
-                        <div class="row-text">
-                             <p>When you want to gauge more leads/sales or need to get started from the word go, Google Adwords and Bing ads are for you.</p>
-                             <div class="">
-                                <a href="http://">Know More</a>
-                             </div>
-                        </div>                     
-                     </div>
-                     <div class="s-row">
-                        <h5>SOCIAL MEDIA MARKETING</h5>
-                        <div class="row-text">
-                             <p>Marketing is not what we sell, marketing is what story we tell to our customers and social media is platform which helps us to tell the stories to the world.</p>
-                         </div>
-                          <div class="">
-                             <a href="http://">Know More</a>
-                         </div>
-                     </div>
-                </div>
 
-
-                <div class="s-rows">
                      <div class="s-row">
                         <h5>SOCIAL MEDIA OPTIMIZATION</h5>
                         <div class="row-text">
@@ -131,22 +115,15 @@
                              </div>
                         </div>
                      </div>
+                     
+
                      <div class="s-row">
-                        <h5>LINK BUILDING</h5>
+                        <h5>SOCIAL MEDIA MARKETING</h5>
                         <div class="row-text">
-                             <p>Link building is an irreplaceable part of Search Engine Optimisation.</p>
-                             <div class="">
-                                <a href="http://">Know More</a>
-                             </div>
-                        </div>                     
-                     </div>
-                     <div class="s-row">
-                        <h5>CONTENT MARKETING</h5>
-                        <div class="row-text">
-                             <p>Our Content Marketing team provides answers to these searches in the form of Blogs and Articles. We stick to the keyword searches relevant to your Business</p>
-                             <div class="">
-                                <a href="http://">Know More</a>
-                             </div>
+                             <p>Marketing is not what we sell, marketing is what story we tell to our customers and social media is platform which helps us to tell...</p>
+                         </div>
+                          <div class="">
+                             <a href="http://">Know More</a>
                          </div>
                      </div>
                 </div>
@@ -185,15 +162,65 @@
                      <div class="s-row">
                         <h5>2D ANIMATION</h5>
                         <div class="row-text">
-                             <p>2D animation is a rapid display of a series of images that are viewed one after the other at a very fast pace. This creates an illusion of moving pictures. </p>
+                             <p>2D animation is a rapid display of a series of images that are viewed one after the other at a very fast pace. This creates an illusion of ...</p>
                              <div class="">
                                 <a href="http://">Know More</a>
                              </div>
                         </div>
                      </div>
+
+                      <div class="s-row">
+                        <h5>MOBILE APPS DEVELOPMENT</h5>
+                        <div class="row-text">
+                             <p>Mobile Application Development is an area that goes beyond the creation of a compelling user interface. The scope of work includes ...</p>
+                             <div class="">
+                                <a href="http://">Know More</a>
+                             </div>
+                        </div>
+                     </div>
+
+                     <div class="s-row">
+                        <h5>WHATSAPP MARKETING</h5>
+                        <div class="row-text">
+                             <p>We are Bulk WhatsApp Marketing Service Provider based in Kakinada,Andhra Pradesh and leader in providing Bulk WhatsApp ...</p>
+                             <div class="">
+                                <a href="http://">Know More</a>
+                             </div>
+                        </div>
+                     </div>
+
+
                 </div>
+                <div class="s-rows">
+                     <div class="s-row">
+                        <h5>LINK BUILDING</h5>
+                        <div class="row-text">
+                             <p>Link building is an irreplaceable part of Search Engine Optimisation.</p>
+                             <div class="">
+                                <a href="http://">Know More</a>
+                             </div>
+                        </div>                     
+                     </div>
+                     <div class="s-row">
+                        <h5>CONTENT MARKETING</h5>
+                        <div class="row-text">
+                             <p>Our Content Marketing team provides answers to these searches in the form of Blogs and Articles. We stick to ....</p>
+                             <div class="">
+                                <a href="http://">Know More</a>
+                             </div>
+                         </div>
+                     </div>
 
-
+                     <div class="s-row">
+                        <h5>3D ANIMATION</h5>
+                        <div class="row-text">
+                             <p>Over the years the 3D animation industry has witnessed sweeping changes. Indeed 3D animation has gone beyond ...</p>
+                             <div class="">
+                                <a href="http://">Know More</a>
+                             </div>
+                         </div>
+                     </div>
+                </div>
             </div>
         </div>
     </section>

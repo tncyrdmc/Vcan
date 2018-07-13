@@ -27,7 +27,7 @@
     </header>
     <main>
             <!--Our serices section-->
-    <section>
+    <section> 
         <div class="abt2">
             <div class="abt-text-contain2">
                 <p>The appearance of your website make strong impression on the image of your company. When you own a business, your website is one of your most important mediums that can be used to reach new customers and generate more leads for your business. Without a high quality website that attracts visitors and provides you with a way to capture information, you are not using the internet’s power to its full potential. It is more important when you are concern about exploring your business world wide. </p>

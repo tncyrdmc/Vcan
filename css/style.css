@@ -27,16 +27,14 @@
 
 }
 .abt-text-contain2{
-    color: #5a5f63;
     margin: 20px auto;
     width: 80%;
     padding: 10px;
     overflow-wrap:  break-word;
 }
 .abt-text-contain2 ul{
-text-align: left;
-list-style-color: #23ccf9;
-
+  text-align: left;
+  background-color: #eeeeee;
 }
 /*conatct form*/
 .contact-container{

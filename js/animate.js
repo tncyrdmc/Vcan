@@ -7,11 +7,11 @@ $(function(){
 	var $chatForm = $('#chat-form');
 
 	var $aboutTxt = $('.abt-bg-white');
+
 	$aboutTxt.hide();
     
     ///show nav on scroll down
 	$window.on('scroll',function(){
-
 		var $top = $(this).scrollTop();
 
 		if ($top > 200) {
@@ -19,22 +19,19 @@ $(function(){
 				'background-color': 'white',
 				'box-shadow': '0px 2px 5px rgba(0, 0, 0, 0.2)'
 			});
+			
 		}else{
+
 			$nav.css({
-				'background-color': 'rgba(255, 255, 255, 0.2)',
+				'background-color': 'rgba(0, 0, 0, 0.0)',
 				'box-shadow': 'none'
 			});
 		}
 
+
 		if ($top > 500){
 		      $aboutTxt.delay(400).fadeIn();
 		}
-
-		// if ($top > 1200){
-		// 	 $serviceBoxes.each(function(index){
-		//      	$(this).delay(400 * index).fadeIn();
-		//     });
-		// }
 		
     });
 

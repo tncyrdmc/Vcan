@@ -12,7 +12,6 @@ body{
 .header{
     width: 100%;
     height: 800px;
-    padding: 10px;
     margin: 0;
     background-image: url("../img/aleks-dorohovich-26-unsplash.jpg");
     background-attachment: fixed;
@@ -30,7 +29,6 @@ body{
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.2);
     z-index: 10;
 }
 .nav-bg ul{
@@ -49,7 +47,7 @@ body{
 }
 .nav-bg ul li a{
     text-decoration: none;
-    color:  #5a5f63;
+    color: #23ccf9;
 }
 /*sing up form*/
 .sign-up {
@@ -60,6 +58,14 @@ body{
     margin: 0;
     padding: 10px;
     border: 1px solid pink;
+}
+.full-bg{
+
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+
 }
 /*about us style*/
 .abt-bg{
@@ -122,9 +128,7 @@ body{
     transition: background 0.2s linear 0.2s;
 }
 .s-row:hover{
-    margin: 10px 10px;
     color: #ffffff;
-    height: 280px;
     background-color: #5a5f63;
     box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.2);
     
@@ -134,7 +138,7 @@ body{
     bottom: 0;
     width: 100%;
     height: auto;
-    background-color: #23ccf9;
+    background-color: pink;
 }
 .s-bt{
     text-align: center;

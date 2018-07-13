@@ -23,7 +23,7 @@
 	<header id="header" class="header">
 		<!--my navigation-->
 		<?php include "nav.php";?>
-
+		<div class="full-bg"></div>
 		<!--slide show container-->
 		<div class="slide-show">
 		</div>
@@ -70,7 +70,7 @@
                      <div class="s-row">
                      	<h5>WEB HOSTING SERVICES</h5>
                      	<div class="row-text">
-							 <p> In Zenith,the best place to host your business or personal website. We do everything for you</p>
+							 <p> In Zenith,the best place to host your business or personal website. We do everything for you you from domain names, web design ...</p>
 							 <div class="r-bt">
 			                	<a href="web-hosting-service.php">Know More</a>
 			                 </div>
