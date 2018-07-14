@@ -16,14 +16,14 @@
 
     <style type="text/css">
       .header-bg{
-          background-image: url("img/william-iven-19843-unsplash.jpg");
+          background-image: url("img/Email-Marketing-Campaigns.jpg");
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
           background-attachment: fixed;
       }
     </style>
-    <title>EMAIL MARKETING</title>
+    <title>EMAIL AND WHATSAPP MARKETING</title>
 </head>
 <body>
     <header>
@@ -32,7 +32,7 @@
         <div class="header-bg">
             <div class="full-bg"></div>
              <div class="header-text">
-                <h1 style="color:white">EMAIL MARKETING</h1>
+                <h1 style="color:white">EMAIL AND WHATSAPP MARKETING</h1>
             </div>
         </div>
     </header>
@@ -41,6 +41,7 @@
     <section> 
         <div class="abt2">
             <div class="abt-text-contain2">
+                <h2>Email Marketing</h2>
                 <p>On this competitive world everyone wants to send bulk emails to get more business but most of them don't know how the bulk email service is working. Most people thinks that they can send bulk emails simply from a "Bulk Mailing Software" that can install on their PC, there is some software like that but that will not work properly and definitely you never get the result you looking for. We are providing customised email-marketing solutions based on the user requirements and the number of the emails they want to send.</p>
 
                 <h2>Bulk Mailing Software Features :</h2>
@@ -54,6 +55,10 @@
                     <li>You can import bulk mailing data (mail IDs and Other details) from Excel, CSV files and other databases.</li>
                     <li>No need to wait till the mass mailing process complete, you can logout and shut down your computer after pressing the send button. It will run from the server</li>
                 </ul>
+                <h2>Whatsapp Marketing</h2>
+                <p>We are Bulk WhatsApp Marketing Service Provider based in Kakinada,Andhra Pradesh and leader in providing Bulk WhatsApp Messaging / Marketing solutions in India. We provide International WhatsApp Marketing and India WhatsApp Marketing as a service. As   we ensure you are connected with your customers where ever they are with just Click of a Button!. To maintain ourselves as best Bulk WhatsApp Text, Images, Audio, Videos - Marketing Service Provider Company and to ensure maximum successful messages delivery within minimum timeframe. We have redundant network of servers to ensure instant upto 100% delivery of WhatsApp Messages.</p>
+                <p>We are an innovative bulk messaging service provider  in  Andhra Pradesh focusing on providing a cost efficient business solution. And we provide Bulk WhatsApp Text, Images, Audio, Videos Marketing service at lowest rates.</p>
+                <p>are currently available in the industry. Now you only pay for WhatsApp Messages send to only WhatsApp enabled Phones and save your money on sending messages on numbers without knowing if number is WhatsApp Enabled or NOT ?? - Our WhatsApp Filtering / WhatsApp Scrubbing Service enable you to seperate live whatsapp numbers from inactive numbers.</p>
                 <div class="s-bt">
 				   <a href="services.php">More services</a>
 			   </div>

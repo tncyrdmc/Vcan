@@ -4,10 +4,9 @@
 			    <div class="ft-row-container">
 			    	<div class="ft-row">
 			    	    <ul id="ft-ul">
-			    	    	<li><a href="http://">HOME</a></li>
-			    	    	<li><a href="http://">ABOUT US</a></li>
+			    	    	<li><a href="#home">HOME</a></li>
+			    	    	<li><a href="about.php">ABOUT US</a></li>
 			    	    	<li><a href="http://">HOW WE HELP</a></li>
-			    	    	<li><a href="http://">CONTACT FORM</a></li>
 			    	    </ul>
 			    	</div>
 			    	<div class="ft-row">

@@ -6,8 +6,22 @@ $(function(){
     var $chatButton = $('#chat-bt')
 	var $chatForm = $('#chat-form');
 
-	var $aboutTxt = $('.abt-bg-white');
+	var $fullBgMenu = $('.full-bg-menu');
+	var $open = $('#open-bt');
+	var $close = $('#close-bt');
 
+	$fullBgMenu.hide();
+	$open.on('click',function(e){
+		e.preventDefault();
+		$fullBgMenu.delay(200).slideDown();
+	});
+
+	$close.on('click',function(e){
+		e.preventDefault();
+		$fullBgMenu.delay(200).slideUp();
+	});
+
+	var $aboutTxt = $('.abt-bg-white');
 	$aboutTxt.hide();
     
     ///show nav on scroll down

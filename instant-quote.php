@@ -41,18 +41,12 @@
         <section>
         <div class="contact-container">
             <div class="contact-text">
-                <h2>Ready to move beyond the basic, generic website?</h2>
-                <p></p>
                 <div class="form-container">
-                    <p>We're here for you! Let us help you develop a full internet marketing strategy that works as hard as you do! Just fill out the form below and we will get right back to you:</p>
+                    <p>We're here for you! Let us help you to grow your business Just fill out the form below and we will get right back to you:</p>
                     <form action="" method="post">
                          <div>
                              <label>Name</label><br>
                              <input type="text" name="name" id="name">
-                        </div>
-                        <div>
-                             <label>Company</label><br>
-                             <input type="text" name="company" id="company">
                         </div>
                          <div>
                              <label>E-mail</label><br>
@@ -61,10 +55,6 @@
                         <div>
                              <label>Phone Number</label><br>
                              <input type="text" name="phone" id="phone">
-                        </div>
-                        <div>
-                             <label>Current Website</label><br>
-                             <input type="url" name="website" id="website">
                         </div>
                         <p>I'm looking for  (check all that apply):</p>
                         <ul>
@@ -85,16 +75,6 @@
                             <li><input type="checkbox" name="">BROCHURE DESIGN</li>
                             <li><input type="checkbox" name="">2D ANIMATION</li>
                         </ul>
-                        <div>
-                            <label>Project's Budget</label>
-                            <select>
-                                <option value="">select</option>
-                                <option value="">10,000-25,000</option>
-                                <option value="">25,000-50,000</option>
-                                <option value="">50,000-100,000</option>
-                                <option value="">100,000</option>
-                            </select>
-                        </div>
                         <div>
                             <label>Tell More About The Project</label>
                             <textarea></textarea>

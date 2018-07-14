@@ -16,8 +16,8 @@
 
     <style type="text/css">
       .header-bg{
-          background-image: url("img/william-iven-19843-unsplash.jpg");
-          background-position: center;
+          background-image: url("img/Website-Designing12.jpg");
+          background-position: bottom;
           background-size: cover;
           background-repeat: no-repeat;
           background-attachment: fixed;

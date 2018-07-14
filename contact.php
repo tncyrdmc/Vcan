@@ -91,15 +91,15 @@
                     <p>Fill your contact informations :</p>
                     <form action="" method="post">
                          <div>
-                             <label>Name</label><br>
+                             <label>Your Name</label><br>
                              <input type="text" name="name" id="name">
                         </div>
                         <div>
-                             <label>Company</label><br>
+                             <label>Mobile No</label><br>
                              <input type="text" name="company" id="company">
                         </div>
                          <div>
-                             <label>E-mail</label><br>
+                             <label>Your Email</label><br>
                              <input type="mail" name="mail" id="mail">
                         </div>
                         <div>
@@ -107,30 +107,7 @@
                              <input type="text" name="phone" id="phone">
                         </div>
                         <div>
-                             <label>Current Website</label><br>
-                             <input type="url" name="website" id="website">
-                        </div>
-                        <p>I'm looking for  (check all that apply):</p>
-                        <ul>
-                            <li><input type="checkbox" name="">WEB DEVELOPMENT</li>
-                            <li><input type="checkbox" name="">WEB DESIGN</li>
-                            <li><input type="checkbox" name="">WEB HOSTING SERVICES</li>
-                            <li><input type="checkbox" name="">BULK SMS</li>
-                            <li><input type="checkbox" name="">VOICE SMS</li>
-                            <li><input type="checkbox" name="">EMAIL MARKETING</li>
-                            <li><input type="checkbox" name="">SEARCH ENGINE OPTIMIZATION</li>
-                            <li><input type="checkbox" name="">PPC MANAGMENT</li>
-                            <li><input type="checkbox" name="">SOCIAL MEDIA MARKETING</li>
-                            <li><input type="checkbox" name="">SOCIAL MEDIA OPTIMIZATION</li>
-                            <li><input type="checkbox" name="">LINK BUILDING</li>
-                            <li><input type="checkbox" name="">CONTENT MARKETING</li>
-                            <li><input type="checkbox" name="">LOGO DESIGN</li>
-                            <li><input type="checkbox" name="">SEO COPYWRITING</li>
-                            <li><input type="checkbox" name="">BROCHURE DESIGN</li>
-                            <li><input type="checkbox" name="">2D ANIMATION</li>
-                        </ul>
-                        <div>
-                            <label>Project's Budget</label>
+                            <label>Contact Type</label>
                             <select>
                                 <option value="">select</option>
                                 <option value="">10,000-25,000</option>
@@ -140,7 +117,7 @@
                             </select>
                         </div>
                         <div>
-                            <label>Tell More About The Project</label>
+                            <label>Your Message</label><br>
                             <textarea></textarea>
                         </div>
                         <div>

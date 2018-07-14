@@ -20,7 +20,7 @@
 </head>
 <body>
 
-	<header id="header" class="header">
+	<header id="home" class="header">
 		<!--my navigation-->
 		<?php include "nav.php";?>
 		<div class="full-bg"></div>
@@ -35,7 +35,7 @@
 			<div class="abt-bg-white">
 				<div class="abt-text">
 					<h2>ABOUT US</h2>
-					<p>Zenith Software Solutions was founded in Kakinada Andhra Pradesh, which  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares. <span><a href="about.php">Read More</a></span></p>
+					<p>Zenith Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares. <span><a href="about.php">Read More</a></span></p>
 				</div>
 			</div>
 		</div>
@@ -48,7 +48,9 @@
 			<div class="box-container">
                  <div class="s-rows">
                      <div class="s-row">
-                        <div class="s-icon"></div>
+                        <div class="s-icon">
+                            <img src="img/service-bg/web-develop9090.jpg">
+                        </div>
                          <h5>WEB DEVELOPMENT</h5>
                          <div class="row-text">
                              <p>Our website development process is in the making  structured for efficiency and high-quality output</p>
@@ -58,7 +60,9 @@
                          </div>
                      </div>
                      <div class="s-row">
-                         <div class="s-icon"></div>
+                         <div class="s-icon">
+                             <img src="img/service-bg/web-develop2.png">
+                         </div>
                          <h5>WEB DESIGN</h5>
                          <div class="row-text">
                              <p>The appearance of your website make strong impression on the image of your company. When you own a business</p>                   
@@ -68,7 +72,9 @@
                         </div>  
                      </div>
                      <div class="s-row">
-                        <div class="s-icon"></div>
+                        <div class="s-icon">
+                            <img src="img/service-bg/Web-Hosting-1.jpg">
+                        </div>
                         <h5>WEB HOSTING SERVICES</h5>
                         <div class="row-text">
                              <p> In Zenith,the best place to host your business or personal website. We do everything for you from domain names, web design ...</p>
@@ -81,7 +87,9 @@
 
                 <div class="s-rows">
                      <div class="s-row">
-                        <div class="s-icon"></div>
+                        <div class="s-icon">
+                            <img src="img/service-bg/Digital-marketing.png">
+                        </div>
                         <h5>DIGITAL MARKETING</h5>
                         <div class="row-text">
                              <p>SEO Services, 
@@ -92,11 +100,13 @@
                                 Link Building...</p>
                          </div>
                          <div class="r-bt">
-                             <a href="http://">Know More</a>
+                             <a href="digital-marketing.php">Know More</a>
                          </div>
                      </div>
                      <div class="s-row">
-                        <div class="s-icon"></div>
+                        <div class="s-icon">
+                            <img src="img/service-bg/chat.png">
+                        </div>
                         <h5>VOICE SMS & BULK SMS</h5>
                         <div class="row-text">
                              <p>Bulk Voice SMS are pre-recorded voice messages to a mobile or landline networks across the country.</p>
@@ -106,13 +116,15 @@
                         </div>                    
                      </div>
                      <div class="s-row">
-                        <div class="s-icon"></div>
-                        <h5>EMAIL MARKETING</h5>
+                        <div class="s-icon">
+                            <img src="img/service-bg/465640-email-marketing.jpg">
+                        </div>
+                        <h5>EMAIL & WHATSAPP MARKETING</h5>
                         <div class="row-text">
-                             <p>On this competitive world everyone wants to send bulk emails to get more business</p>
+                             <p>We are Bulk EMAIL & WhatsApp Marketing Service Provider based in Kakinada,Andhra Pradesh and leader in providing Bulk WhatsApp ...</p>
                          </div>
                          <div class="r-bt">
-                            <a href="http://">Know More</a>
+                            <a href="email-and-whatsapp-marketing.php">Know More</a>
                          </div>
                      </div>
                 </div>

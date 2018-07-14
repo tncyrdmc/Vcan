@@ -15,8 +15,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
         .header-bg{
-            background-image: url("img/rawpixel-678089-unsplash.jpg");
-            background-position: center;
+            background-image: url("img/webdesg11.jpg");
+            background-position: bottom;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
