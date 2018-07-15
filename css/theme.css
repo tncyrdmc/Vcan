@@ -6,7 +6,9 @@ body{
     font-size: 15px;
     line-height: 2;
     color:  #5a5f63;
+    overflow-x: hidden;
 }
+
 /*header style*/
 .header{
     width: 100%;
@@ -160,7 +162,7 @@ body{
 .s-row:hover{
     color: #ffffff;
     background-color: #5a5f63;
-    box-shadow: 5px 5px 80px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 40px #eeeeee;
     
 }
 .r-bt{
@@ -208,9 +210,7 @@ body{
 }
 .ft-text-contain{
     width: 80%;
-    height: auto;
-    position: relative;
-    top: 80px;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -314,4 +314,99 @@ body{
 }
 .chat-form input[type = "submit"]:hover{
     background-color: #5a5f63;
+}
+
+
+@media  (min-width: 480px) and (max-width: 768px){
+    .abt-bg{
+        height: auto;
+        background-color: white;
+    }
+    .abt-bg-white{
+        width: 100%;
+        box-shadow: 0 0 0 transparent;
+    }
+    .s-rows{
+        display: block;
+    }
+    .s-row{
+        margin: 10px auto;
+    }
+    .ft-container{
+        height: cover;
+    }
+    .ft-text-contain{
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    .ft-row-container{
+        display: block;
+    }
+    .ft-row{
+        width: 100%;
+        height: auto;
+    }
+    .ft-row-container .ft-row ul{
+        margin: 10px 0;
+        width: 100%;
+        height: cover;
+    }
+    .ft-row-container .ft-row ul#com li{
+        width: 100%;
+    }
+    .abt2{
+        width: 100%;
+    }
+    .abt-text-contain2{
+        width: 90%;
+    }
+    .social-m ul{
+        margin: 30px 0 30px 0;
+    }
+}
+@media (max-width: 480px){
+    .abt-bg{
+        height: auto;
+        background-color: white;
+    }
+    .abt-bg-white{
+        width: 100%;
+        box-shadow: 0 0 0 transparent;
+    }
+    .s-rows{
+        display: block;
+    }
+    .s-row{
+        width: 100%;
+        margin: 10px auto;
+    } 
+    .ft-container{
+        height: auto;
+    }
+    .ft-text-contain{
+
+        width: 100%;
+    }
+    .ft-row-container{
+        display: block;
+    }
+    .ft-row{
+        width: 100%;
+        height: auto;
+    }
+    .ft-row-container .ft-row ul{
+        margin: 10px 0;
+        width: 100%;
+        height: cover;
+    }
+    .ft-row-container .ft-row ul li{
+        width: 100%;
+    }
+    .abt2{
+        width: 100%;
+    }
+    .abt-text-contain2{
+        width: 90%;
+    }
 }

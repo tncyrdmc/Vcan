@@ -19,7 +19,7 @@
     <title>CONTACT US</title>
     <style type="text/css">
     .header-bg{
-        background-image: url("img/pavan-trikutam-1660-unsplash.jpg");
+        background-image: url("img/Contact-Us-1349x378.jpg");
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
@@ -110,7 +110,7 @@
                             <label>Contact Type</label>
                             <select>
                                 <option value="">select</option>
-                                <option value="">10,000-25,000</option>
+                                <option value="">feedback</option>
                                 <option value="">25,000-50,000</option>
                                 <option value="">50,000-100,000</option>
                                 <option value="">100,000</option>
