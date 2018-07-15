@@ -49,7 +49,7 @@
                  <div class="s-rows">
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/web-develop9090.jpg">
+                            <img src="img/service-bg/web-development-tool.png">
                         </div>
                          <h5>WEB DEVELOPMENT</h5>
                          <div class="row-text">
@@ -61,7 +61,7 @@
                      </div>
                      <div class="s-row">
                          <div class="s-icon">
-                             <img src="img/service-bg/web-develop2.png">
+                             <img src="img/service-bg/home-web-design-icon.png">
                          </div>
                          <h5>WEB DESIGN</h5>
                          <div class="row-text">
@@ -73,7 +73,7 @@
                      </div>
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/Web-Hosting-1.jpg">
+                            <img src="img/service-bg/Web-Hosting-Icon1.png">
                         </div>
                         <h5>WEB HOSTING SERVICES</h5>
                         <div class="row-text">
@@ -117,7 +117,7 @@
                      </div>
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/465640-email-marketing.jpg">
+                            <img src="img/service-bg/icon-email-marketing-icon-1.png">
                         </div>
                         <h5>EMAIL & WHATSAPP MARKETING</h5>
                         <div class="row-text">
