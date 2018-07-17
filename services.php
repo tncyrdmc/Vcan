@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Vcan Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares.">
+    <meta name="keywords" content="Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
+    <meta name="author" content="Deng Beny Thon, email dengbeny123@gmail.com">
 
 
 	<!--Icons-->
@@ -32,7 +35,7 @@
         <div class="header-bg">
             <div class="full-bg"></div>
              <div class="header-text">
-                <h1 style="color:white">OUR SERVICES IN ZENITH SOFTWARE SOLUTIONS</h1>
+                <h1 style="color:white">OUR SERVICES IN VCAN SOFTWARE SOLUTIONS</h1>
             </div>
         </div>
     </header>
@@ -40,8 +43,9 @@
             <!--Our serices section-->
     <section id="our-services">
         <div class="services-container">
+        <h3>To give you the best services that our aim.</h3>
             <div class="box-container">
-                                 <div class="s-rows">
+                    <div class="s-rows">
                      <div class="s-row">
                         <div class="s-icon">
                             <img src="img/service-bg/web-development-tool.png">

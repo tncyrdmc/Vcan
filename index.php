@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="" content="">
-    <meta name="" content="">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Vcan Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares.">
+    <meta name="keywords" content="Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
+    <meta name="author" content="Deng Beny Thon, email dengbeny123@gmail.com">
 
 	<!--Icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +36,7 @@
 			<div class="abt-bg-white">
 				<div class="abt-text">
 					<h2>ABOUT US</h2>
-					<p>Zenith Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares. <span><a href="about.php">Read More</a></span></p>
+					<p><b>Vcan</b> Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares. <span><a href="about.php">Read More</a></span></p>
 				</div>
 			</div>
 		</div>
@@ -145,8 +146,18 @@
 	<!--What our costumer say about us-->
 	<section id="ct-fb">
 		<div class="ct-fb">
-			<h2>THEY SAY ABOUT US</h2>
-
+            <h2>THEY SAY ABOUT US</h2>
+            <div class="ct-boxes"> 
+                 <div class="ct-ft-box">
+                     <p>We really happy with Perfect Services as we developed our Website and Mobile Apps with Vcan Software Solutions.</p>
+                 </div>
+                 <div class="ct-ft-box">
+                     <p>Becourse of SEO Services and marketing at Vcan now our business in Top amoung many businesses</p>
+                 </div>
+                 <div class="ct-ft-box">
+                     <p>I did not know that becourse of E-mail and Whatsapp Marketing our business will grow fast like this</p>
+                 </div>
+            </div>
 		</div>
 	</section>
 

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Vcan Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares.">
+    <meta name="keywords" content="Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
+    <meta name="author" content="Deng Beny Thon, email dengbeny123@gmail.com">
 
 
 	<!--Icons-->
@@ -125,15 +128,10 @@
                         </div>
                     </form>
                 </div>
-
-            <div class="s-rows">
-                <div class="row">
-                    <iframe allowfullscreen="" frameborder="0" height="300" src="https://www.google.co.in/maps/@16.9806518,82.2531355,16z?hl=en&authuser=0" style="border:0" width="500"></iframe>
+                <h2>Check Our Location</h2>
+                <div style="width: 85%; margin-top: 50px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319" width="100%" height="200" frameborder="0" style="border:0"></iframe>
                 </div>
-                <div class="row">
-                    
-                </div>
-            </div>
             </div>
         </div>
     </section>
