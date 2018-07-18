@@ -43,10 +43,10 @@
     <section>
         <div class="abt2">
             <div class="abt-text-contain2">
-                <p> In Zenith,the best place to host your business or personal website. We do everything for you from domain names, web design, web development, internet marketing services, email addresses and powerful web hosting services. </p>
+                <p> In Vcan,the best place to host your business or personal website. We do everything for you from domain names, web design, web development, internet marketing services, email addresses and powerful web hosting services. </p>
                 <p>We are one among the leading domain and web hosting companies in Kakinada Andhra Pradesh, providing secure domain registration and web hosting service to our clients at affordable rates.</p>
-                <p>Here comes the importance of responsive web designing. Here at Zenith, we are passionate about web designing and our professional web designers are capable of designing new responsive websites and at the same time they can also modify your ordinary website and make it responsive. Our aim is to develop and deliver an optimise website experience on devices with different widths and different solutions.</p>
-                <p>Zenith have a young and creative team of web designers with sound knowledge in the latest web designing tools and techniques. Our professionally qualified web designers are the best in the best web designers in the industry today.</p>
+                <p>Here comes the importance of responsive web designing. Here at Vcan, we are passionate about web designing and our professional web designers are capable of designing new responsive websites and at the same time they can also modify your ordinary website and make it responsive. Our aim is to develop and deliver an optimise website experience on devices with different widths and different solutions.</p>
+                <p>In Vcan we have a young and creative team of web designers with sound knowledge in the latest web designing tools and techniques. Our professionally qualified web designers are the best in the best web designers in the industry today.</p>
 
                 <h2>We provide :</h2>
                 <ul>

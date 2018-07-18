@@ -35,7 +35,7 @@
         <div class="header-bg">
             <div class="full-bg"></div>
              <div class="header-text">
-                <h1 style="color:white">OUR SERVICES IN VCAN SOFTWARE SOLUTIONS</h1>
+                <h1 style="color:white">VCAN SOFTWARE SOLUTIONS</h1>
             </div>
         </div>
     </header>
@@ -43,7 +43,7 @@
             <!--Our serices section-->
     <section id="our-services">
         <div class="services-container">
-        <h3>To give you the best services that our aim.</h3>
+             <h3>To give you the best services that our aim.</h3>
             <div class="box-container">
                     <div class="s-rows">
                      <div class="s-row">
@@ -70,17 +70,18 @@
                             <a href="web-design.php">Know More</a>
                         </div>  
                      </div>
+
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/Web-Hosting-Icon1.png">
+                            <img src="img/service-bg/hybrid.png">
                         </div>
-                        <h5>WEB HOSTING SERVICES</h5>
+                        <h5>MOBILE APPS DEVELOPMENT</h5>
                         <div class="row-text">
-                             <p> In Zenith,the best place to host your business or personal website. We do everything for you from domain names, web design ...</p>
+                             <p>Mobile Application Development is an area that goes beyond the creation of a compelling user interface. The scope of work includes ...</p>
                         </div>
                         <div class="r-bt">
-                          <a href="web-hosting-service.php">Know More</a>
-                        </div>
+                            <a href="mobile-apps-dev.php">Know More</a>
+                         </div>
                      </div>
                 </div>
 
@@ -129,16 +130,16 @@
                 </div>
 
                  <div class="s-rows">
-                     <div class="s-row">
+                   <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/diseño-grafico-aranjuez-e1481563812825.png">
+                            <img src="img/service-bg/download.png">
                         </div>
-                        <h5>LOGO DESIGN</h5>
+                        <h5>GRAPHOCS DESIGN</h5>
                         <div class="row-text">
-                             <p>The logo designs we create ensure it communicates your brand or business personality effectively.</p>
-                        </div>
-                        <div class="r-bt">
-                            <a href="logo-design.php">Know More</a>
+                             <p> graphics design have become the norm. Anything visual catches the eye, captures the attention and creates an impact to a large extent.</p>
+                         </div>
+                         <div class="r-bt">
+                            <a href="graphics-design.php">Know More</a>
                         </div>
                      </div>
                      <div class="s-row">
@@ -155,31 +156,17 @@
                      </div>
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/download.png">
+                            <img src="img/service-bg/Web-Hosting-Icon1.png">
                         </div>
-                        <h5>BROCHURE DESIGN</h5>
+                        <h5>WEB HOSTING SERVICES</h5>
                         <div class="row-text">
-                             <p> graphics design have become the norm. Anything visual catches the eye, captures the attention and creates an impact to a large extent.</p>
-                         </div>
-                         <div class="r-bt">
-                            <a href="brochure-design.php">Know More</a>
-                        </div>
-                     </div>
-                </div>
-
-                <div class="s-rows">
-                      <div class="s-row">
-                        <div class="s-icon">
-                            <img src="img/service-bg/hybrid.png">
-                        </div>
-                        <h5>MOBILE APPS DEVELOPMENT</h5>
-                        <div class="row-text">
-                             <p>Mobile Application Development is an area that goes beyond the creation of a compelling user interface. The scope of work includes ...</p>
+                             <p> In  Vcan,the best place to host your business or personal website. We do everything for you from domain names, web design ...</p>
                         </div>
                         <div class="r-bt">
-                            <a href="mobile-apps-dev.php">Know More</a>
-                         </div>
+                          <a href="web-hosting-service.php">Know More</a>
+                        </div>
                      </div>
+                      
                 </div>
             </div>
         </div>

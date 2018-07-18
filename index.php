@@ -15,6 +15,76 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <!--my style-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+    /* Slideshow container */
+        .slideshow-container {
+          width: 100%;
+          height: inherit;
+        }
+        
+        /* Slides */
+        .mySlides {
+          width: 100%;
+          height: inherit;
+          display: none;
+          text-align: center;
+        }
+        .mySlides img{
+          width: inherit;
+          height: inherit;
+          object-fit: cover;
+          z-index: 1;
+        }
+        .slide-caption{
+          width: 100%;
+          height: 200px;
+          padding: 10px;
+          position: absolute;
+          top: 35%;
+          background-color: rgba(0,0,0,0.5);
+          box-sizing: border-box;
+        }
+        .slide-caption h1{
+          color: #ffffff;
+        }
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 45%;
+          width: auto;
+          margin-top: -30px;
+          padding: 16px;
+          color: #888;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          position: absolute;
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit         see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+          color: white;
+        }
+        
+        /* The dot/bullet/indicator container */
+        .dot-container {
+          width: 100%;
+          text-align: center;
+          padding: 20px;
+          background: #ddd;
+        }
+        
+    </style>
 
     <title>HOME</title>
 
@@ -24,10 +94,60 @@
 	<header id="home" class="header">
 		<!--my navigation-->
 		<?php include "nav.php";?>
-		<div class="full-bg"></div>
-		<!--slide show container-->
-		<div class="slide-show">
-		</div>
+		<!-- <div class="full-bg"></div> -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width slides/quotes -->
+      <div class="mySlides">
+        <img src="img/rawpixel-594848-unsplash.jpg">
+        <div class="slide-caption">
+          <h1>Vcan softwares solution</h1>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/96.jpg">
+        <div class="slide-caption">
+          <h1>Mobile Apps Development</h1>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/bulk-voice-sms.jpg">
+        <div class="slide-caption">
+          <h1>Bulk and Voice SMS</h1>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/dg4.jpg">
+        <div class="slide-caption">
+          <h1>Digital Marketing</h1>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/Website-Designing12.jpg">
+        <div class="slide-caption">
+          <h1>Vcan softwares solution</h1>
+        </div>
+      </div>
+
+       <div class="mySlides">
+        <img src="img/Website-Designing12.jpg">
+        <div class="slide-caption">
+          <h1>Vcan softwares solution</h1>
+        </div>
+      </div>
+
+
+
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   </div>
+
 	</header>
 
 	<!--About us section-->
@@ -150,12 +270,15 @@
             <div class="ct-boxes"> 
                  <div class="ct-ft-box">
                      <p>We really happy with Perfect Services as we developed our Website and Mobile Apps with Vcan Software Solutions.</p>
+                     <h6>Ms: Raje</h6>
                  </div>
                  <div class="ct-ft-box">
-                     <p>Becourse of SEO Services and marketing at Vcan now our business in Top amoung many businesses</p>
+                     <p>Becourse of SEO Services and marketing at Vcan now our business in Top amoung many businesses.</p>
+                     <h6>Ms: Vanu sharma</h6>
                  </div>
                  <div class="ct-ft-box">
-                     <p>I did not know that becourse of E-mail and Whatsapp Marketing our business will grow fast like this</p>
+                     <p>I did not know that becourse of E-mail and Whatsapp Marketing our business will grow fast like this.</p>
+                     <h6>Mr: Parasad</h6>
                  </div>
             </div>
 		</div>
@@ -164,5 +287,29 @@
 
 	<!--footer of the page-->
 	<?php include "footer.php";?>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1} 
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active",         "");
+            }
+          slides[slideIndex-1].style.display = "block"; 
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
 </body>
 </html>

@@ -11,9 +11,9 @@
 			    	</div>
 			    	<div class="ft-row">
 					    <ul id="com">
-						    <li><i class="material-icons" style="font-size:34px;color:pink">phone</i>+919705565777</li>
-			    	    	<li><i class="material-icons" style="font-size:34px;color:pink">email</i>hello@efelle.com</li>
-			    	    	<li><i class="material-icons" style="font-size:34px;color:pink">location_on</i>Fci colony, vigneswar nagar, valasapakala. Kakinada - 533005 E.G.DT Andhrapradesh</li>
+						    <li><i class="material-icons" style="font-size:34px;color:#23ccf9">phone</i>+919705565777</li>
+			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">email</i>hello@efelle.com</li>
+			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">location_on</i>Fci colony, vigneswar nagar, valasapakala. Kakinada - 533005 E.G.DT Andhrapradesh</li>
 			    	    </ul>
                     </div>
 			    </div>

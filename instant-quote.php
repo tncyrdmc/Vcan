@@ -26,7 +26,7 @@
             background-attachment: fixed;
         }
     </style>
-    <title>CONTACT US</title>
+    <title>INSTANT QUOTE</title>
 </head>
 <body>
     <header>

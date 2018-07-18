@@ -79,14 +79,14 @@
     list-style: none;
     width: 100%;
  }
-  .contact-text  .form-container input[type = "submit"],.sign-up input[type = "submit"]{
+  .contact-text  .form-container input[type = "submit"]{
     width: auto;
-    background-color: pink;
+    background-color: rgb(9, 120, 255);
     color: #fff;
     border: 0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     transition: background-color 0.1s ease-in 0.2s;
  }
-  .contact-text  .form-container input[type = "submit"]:hover,.sign-up input[type = "submit"]:hover{
-    background-color:  #5a5f63;
+  .contact-text  .form-container input[type = "submit"]:hover{
+    background-color:  #373f45;
   }

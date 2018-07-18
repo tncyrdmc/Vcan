@@ -106,10 +106,6 @@
                              <input type="mail" name="mail" id="mail">
                         </div>
                         <div>
-                             <label>Phone Number</label><br>
-                             <input type="text" name="phone" id="phone">
-                        </div>
-                        <div>
                             <label>Contact Type</label>
                             <select>
                                 <option value="">select</option>
@@ -136,7 +132,9 @@
         </div>
     </section>
 
-
+    <script type="text/javascript">
+    
+    </script>
     <!--footer of the page-->
 	<?php include "footer.php";?>
 </body>

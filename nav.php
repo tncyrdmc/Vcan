@@ -6,6 +6,7 @@
 		<div>
 			<nav class="nav">
 				<ul>
+				    <li><a href="index.php">HOME</a></li>
 					<li><a href="services.php">SERVICES</a></li>
 					<li><a href="instant-quote.php">GET QUOTE</a></li>
 				</ul>
@@ -18,7 +19,9 @@
 <div class="full-bg-menu">
     <ul>
     	<a href="#" id="close-bt"><i class="material-icons" style="font-size:36px">close</i></a>
-        <li><a href="index.php">HOME</a></li>
+		<li><a href="index.php">HOME</a></li>
+		<li class="li-d"><a href="services.php">SERVICES</a></li>
+		<li class="li-d"><a href="instant-quote.php">GET QUOTE</a></li>
 		<li><a href="about.php">ABOUT US</a></li>
 		<li><a href="contact.php">CONTACT US</a></li>
      </ul>
