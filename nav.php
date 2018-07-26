@@ -1,8 +1,8 @@
 <div class="nav-bg">
 		<div class="logo">
-
+		    <img src="img/logo/logo.png" alt="">
+			<span><a href="index.php">VCAN SOFTWARE SOLUTIONS</a></span>
 		</div>
-
 		<div>
 			<nav class="nav">
 				<ul>

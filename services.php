@@ -17,9 +17,12 @@
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!--our logo-->
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
+
     <style type="text/css">
         .header-bg{
-            background-image: url("img/glenn-carstens-peters-190592-unsplash.jpg");
+            background-image: url("img/william-iven-19843-unsplash.jpg");
             background-position: bottom;
             background-size: cover;
             background-repeat: no-repeat;
@@ -33,7 +36,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
-            <div class="full-bg"></div>
+        <div class="fs"></div>
              <div class="header-text">
                 <h1 style="color:white">VCAN SOFTWARE SOLUTIONS</h1>
             </div>
@@ -48,7 +51,7 @@
                     <div class="s-rows">
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/web-development-tool.png">
+                           <img src="img/service-bg/web-develop9090.jpg">
                         </div>
                          <h5>WEB DEVELOPMENT</h5>
                          <div class="row-text">
@@ -60,7 +63,7 @@
                      </div>
                      <div class="s-row">
                          <div class="s-icon">
-                             <img src="img/service-bg/home-web-design-icon.png">
+                             <img src="img/service-bg/web-develop2.png" style="width: 100%">
                          </div>
                          <h5>WEB DESIGN</h5>
                          <div class="row-text">

@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Vcan Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares.">
-    <meta name="keywords" content="Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
-    <meta name="author" content="Deng Beny Thon, email dengbeny123@gmail.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Vcan Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares.">
+  <meta name="keywords" content="Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
+  <meta name="author" content="Deng Beny Thon, email dengbeny123@gmail.com">
 
 	<!--Icons-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--main theme-->
-    <link rel="stylesheet" type="text/css" href="css/theme.css">
-    <!--my style-->
+  <!--main theme-->
+  <link rel="stylesheet" type="text/css" href="css/theme.css">
+  <!--my style-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!--our logo-->
+  <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
     <style>
     /* Slideshow container */
         .slideshow-container {
@@ -40,11 +43,12 @@
           height: 200px;
           padding: 10px;
           position: absolute;
-          top: 35%;
-          background-color: rgba(0,0,0,0.5);
+          top: 20%;
           box-sizing: border-box;
+          z-index: 50;
         }
         .slide-caption h1{
+          font-size: 74px;
           color: #ffffff;
         }
         /* Next & previous buttons */
@@ -54,13 +58,14 @@
           top: 45%;
           width: auto;
           margin-top: -30px;
-          padding: 16px;
+          padding: 10px;
           color: #888;
           font-weight: bold;
           font-size: 20px;
           border-radius: 0 3px 3px 0;
           user-select: none;
-          background-color: rgba(0,0,0,0.8);
+          background-color: rgba(0,0,0,0.5);
+          z-index: 50;
         }
         
         /* Position the "next button" to the right */
@@ -72,7 +77,7 @@
         
         /* On hover, add a black background color with a little bit         see-through */
         .prev:hover, .next:hover {
-          background-color: rgba(0,0,0,0.8);
+          background-color: rgb(0,0,0);
           color: white;
         }
         
@@ -86,7 +91,7 @@
         
     </style>
 
-    <title>HOME</title>
+    <title>VCANSOFTSOL</title>
 
 </head>
 <body>
@@ -94,49 +99,56 @@
 	<header id="home" class="header">
 		<!--my navigation-->
 		<?php include "nav.php";?>
-		<!-- <div class="full-bg"></div> -->
+    <div class="fs"></div>
     <!-- Slideshow container -->
     <div class="slideshow-container">
       <!-- Full-width slides/quotes -->
       <div class="mySlides">
         <img src="img/rawpixel-594848-unsplash.jpg">
         <div class="slide-caption">
-          <h1>Vcan softwares solution</h1>
+          <h1></h1>
         </div>
       </div>
 
       <div class="mySlides">
-        <img src="img/96.jpg">
+        <img src="img/goran-ivos-307271-unsplash.jpg">
+        <div class="slide-caption">
+          <h1>Web Development</h1>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <img src="img/rami-al-zayat-170349-unsplash.jpg">
         <div class="slide-caption">
           <h1>Mobile Apps Development</h1>
         </div>
       </div>
 
       <div class="mySlides">
-        <img src="img/bulk-voice-sms.jpg">
+        <img src="img/service-bg/chat.png">
         <div class="slide-caption">
           <h1>Bulk and Voice SMS</h1>
         </div>
       </div>
 
       <div class="mySlides">
-        <img src="img/dg4.jpg">
+        <img src="img/technologies-that-could-change-digital-marketing-forever.jpg">
         <div class="slide-caption">
           <h1>Digital Marketing</h1>
         </div>
       </div>
 
       <div class="mySlides">
-        <img src="img/Website-Designing12.jpg">
+        <img src="img/alice-achterhof-85968-unsplash.jpg">
         <div class="slide-caption">
-          <h1>Vcan softwares solution</h1>
+          <h1>Graphics Design</h1>
         </div>
       </div>
 
        <div class="mySlides">
-        <img src="img/Website-Designing12.jpg">
+        <img src="img/email-3249062_1280.png">
         <div class="slide-caption">
-          <h1>Vcan softwares solution</h1>
+          <h1>Email and Whatsapp Marketing</h1>
         </div>
       </div>
 
@@ -167,10 +179,10 @@
 		<div class="services-container">
 			<h2>OUR SERVICES</h2>
 			<div class="box-container">
-                 <div class="s-rows">
+      <div class="s-rows">
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/web-development-tool.png">
+                           <img src="img/service-bg/web-develop9090.jpg">
                         </div>
                          <h5>WEB DEVELOPMENT</h5>
                          <div class="row-text">
@@ -182,7 +194,7 @@
                      </div>
                      <div class="s-row">
                          <div class="s-icon">
-                             <img src="img/service-bg/home-web-design-icon.png">
+                             <img src="img/service-bg/web-develop2.png" style="width: 100%">
                          </div>
                          <h5>WEB DESIGN</h5>
                          <div class="row-text">
@@ -192,17 +204,18 @@
                             <a href="web-design.php">Know More</a>
                         </div>  
                      </div>
+
                      <div class="s-row">
                         <div class="s-icon">
-                            <img src="img/service-bg/Web-Hosting-Icon1.png">
+                            <img src="img/service-bg/hybrid.png">
                         </div>
-                        <h5>WEB HOSTING SERVICES</h5>
+                        <h5>MOBILE APPS DEVELOPMENT</h5>
                         <div class="row-text">
-                             <p> In Zenith,the best place to host your business or personal website. We do everything for you from domain names, web design ...</p>
+                             <p>Mobile Application Development is an area that goes beyond the creation of a compelling user interface. The scope of work includes ...</p>
                         </div>
                         <div class="r-bt">
-                          <a href="web-hosting-service.php">Know More</a>
-                        </div>
+                            <a href="mobile-apps-dev.php">Know More</a>
+                         </div>
                      </div>
                 </div>
 
@@ -249,6 +262,7 @@
                          </div>
                      </div>
                 </div>
+
 			<div class="s-bt">
 				<a href="services.php">More services</a>
 			</div>
@@ -304,11 +318,8 @@
             for (i = 0; i < slides.length; i++) {
               slides[i].style.display = "none"; 
             }
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active",         "");
-            }
           slides[slideIndex-1].style.display = "block"; 
-          dots[slideIndex-1].className += " active";
+
         }
     </script>
 </body>

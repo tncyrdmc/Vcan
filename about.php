@@ -16,6 +16,9 @@
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+      <!--our logo-->
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
+
     <style type="text/css">
         .header-bg{
             background-image: url("img/jeremy-perkins-291861-unsplash.jpg");
@@ -34,7 +37,7 @@
         <?php include "nav.php";?>
         
         <div class="header-bg">
-            <div class="full-bg"></div>
+        <div class="fs"></div>
             <div class="header-text">
                 <h1 style="color:white">ABOUT VCAN SOFTWARE SOLUTIONS</h1>
             </div>
@@ -50,7 +53,7 @@
                 <p>Our team is a complete and strategic mix of professionals from Technology, Marketing and Business Management. Our team of professionals use the most up to date technology for any of your need related to Softwares, Websites, E-commerce, Web Based Softwares and Solutions, PPC etc. We give unique and personalised web based solutions with quality at competitive market rates.</p>
 
                 <h2 style="color: #23ccf9">Why US?</h2>
-                <p>At Zenith, we guarantee our work and guarantee results, whether you're looking for a simple website design package or complicated website application development. Aside from our client testimonials, following is a list of reasons why you should consider us as your project team:</p>
+                <p>At Vcan, we guarantee our work and guarantee results, whether you're looking for a simple website design package or complicated website application development. Aside from our client testimonials, following is a list of reasons why you should consider us as your project team:</p>
 
                 <ul class"">
                     <li>Our websites will earn you money; we offer a solid return on investment because we build websites to be found and generate targeted sales leads & revenue.</li>
@@ -63,7 +66,7 @@
                     <li>We don't hand you off to a 3rd party hosting provider -we offer secure, high-speed web hosting, and look after your website 24x7.</li>
                 </ul>
 
-                <p>At Zenith, we closely follow new trends in all aspects of design and search engine marketing and provide a solution that effectively implements fresh ideas and innovative approaches. Our team of website design and development professionals treat every client individually, we place great emphasis on your needs and we're genuinely interested in the success of your business.</p>
+                <p>At Vcan, we closely follow new trends in all aspects of design and search engine marketing and provide a solution that effectively implements fresh ideas and innovative approaches. Our team of website design and development professionals treat every client individually, we place great emphasis on your needs and we're genuinely interested in the success of your business.</p>
                 <p>We provide you with a total web marketing solution, tailored to YOUR business needs. We start with an innovative, attractive and professional web design that will assist you to open new markets for your business. Our quality assurance procedures will ensure you have a web presence with maximum impact and our experienced search engine marketing consultants will increase qualified, targeted sales leads from the major search engines.</p>
 
             </div>

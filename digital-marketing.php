@@ -17,6 +17,9 @@
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!--our logo-->
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
+
     <style type="text/css">
       .header-bg{
           background-image: url("img/Digital-Marketing1.jpg");
@@ -33,7 +36,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
-            <div class="full-bg"></div>
+        <div class="fs"></div>
              <div class="header-text">
                 <h1 style="color:white">DIGITAL MARKETING</h1>
             </div>
@@ -149,7 +152,7 @@
 
                 <h2 id="SEOC">SEO COPYWRITING</h2>
 
-                <p>The writers at Zenith are skilled in writing search engine friendly text that help place a page prominently on the search engine and still maintain engaging and persuasive content.</p>
+                <p>The writers at Vcan are skilled in writing search engine friendly text that help place a page prominently on the search engine and still maintain engaging and persuasive content.</p>
 
                 <p>Our team of writer's, are expert SEO analysts as writing search engine friendly content that requires in-depth knowledge on the working of search engines. Subject relevance is of critical importance as search engines compare information found there with other pages to determine relevance.</p>
 

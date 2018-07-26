@@ -13,12 +13,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
     <!--main theme-->
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!--our logo-->
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16"> 
     <title>CONTACT US</title>
     <style type="text/css">
     .header-bg{
@@ -78,7 +79,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
-            <div class="full-bg"></div>
+        <div class="fs"></div>
             <div class="header-text">
                 <h1 style="color:white">CONTACT US</h1>
             </div>
@@ -89,7 +90,6 @@
         <div class="contact-container">
             <div class="contact-text">
                 <h2>Let's build your company a digital strategy that works as hard as you.</h2>
-                <p></p>
                 <div class="form-container">
                     <p>Fill your contact informations :</p>
                     <form action="" method="post">
@@ -104,16 +104,6 @@
                          <div>
                              <label>Your Email</label><br>
                              <input type="mail" name="mail" id="mail">
-                        </div>
-                        <div>
-                            <label>Contact Type</label>
-                            <select>
-                                <option value="">select</option>
-                                <option value="">feedback</option>
-                                <option value="">25,000-50,000</option>
-                                <option value="">50,000-100,000</option>
-                                <option value="">100,000</option>
-                            </select>
                         </div>
                         <div>
                             <label>Your Message</label><br>

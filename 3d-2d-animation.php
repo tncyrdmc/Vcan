@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!--our logo-->
+   <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
 
     <style type="text/css">
       .header-bg{
@@ -33,7 +35,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
-            <div class="full-bg"></div>
+        <div class="fs"></div>
              <div class="header-text">
                 <h1 style="color:white">2D & 3D ANIMATION</h1>
             </div>

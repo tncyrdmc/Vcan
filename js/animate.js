@@ -3,9 +3,6 @@ $(function(){
 	var $window = $(window);
 	var $nav = $('.nav-bg');
 
-    var $chatButton = $('#chat-bt')
-	var $chatForm = $('#chat-form');
-
 	var $fullBgMenu = $('.full-bg-menu');
 	var $open = $('#open-bt');
 	var $close = $('#close-bt');
@@ -37,23 +34,39 @@ $(function(){
 		}else{
 
 			$nav.css({
-				'background-color': 'rgba(0, 0, 0, 0.0)',
+				'background-color': 'rgba(0, 0, 0, 0)',
 				'box-shadow': 'none'
 			});
 		}
 
 
-		if ($top > 500){
+		if ($top > 400){
 		      $aboutTxt.delay(400).fadeIn();
 		}
 		
     });
 
-    //chat form toggle
+	//chat form toggle
+	var $chatButtonOpen = $('#chat-bt-open');
+	var $chatButtonClose = $('#chat-bt-close');
+	var $chatForm = $('#chat-form');
+
 	$chatForm.hide();
-	$chatButton.on('click',function(e){
+	$chatButtonClose.parent().hide();
+
+	//open Up chat
+	$chatButtonOpen.on('click',function(e){
 		e.preventDefault();
-		$chatForm.delay(400).slideToggle();
+		$chatForm.delay(400).slideDown();
+		$chatButtonClose.parent().delay(700).fadeIn();
+		
+		
+	});
+	//close chat
+	$chatButtonClose.on('click',function(e){
+		e.preventDefault();
+		$chatButtonClose.parent().fadeOut();
+		$chatForm.delay(400).slideUp();
 		
 	});
 

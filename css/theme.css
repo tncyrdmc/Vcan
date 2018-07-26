@@ -12,7 +12,7 @@ body{
 /*header style*/
 .header{
     width: 100%;
-    height: 750px;
+    height: 800px;
     margin: 0;
     border-color: white;
     border-bottom: 15xp;
@@ -22,11 +22,12 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
     margin: 0;
+    padding-top: 10px;
     box-sizing: border-box;
     text-align: center;
-    z-index: 1000;
+    z-index: 100;
 
 }
 .nav-bg ul{
@@ -48,13 +49,48 @@ body{
     text-decoration: none;
     color: #fff;
 }
+.logo{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding-top: 10px;;
+    width: auto;
+    height: 80px;
+    box-sizing: border-box;
+}
+.logo span{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.logo span a{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 28px;
+    font-weight: 1000px;
+    font-style: bold;
+    color:  #005ebc;
+    text-decoration: none;
+    margin: 0;
+}
+.logo img{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
 .menu-btt{
     position: absolute;
-    top: 4px;
+    top: 10px;
     right: 10px;
     padding: 10px;
     width: 50px;
     height: auto;
+}
+.fs{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 .full-bg-menu{
     text-align: center;
@@ -63,8 +99,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: #23ccf9;
-    opacity: 0.9;
-    z-index: 100;
+    z-index: 1000;
 }
 .full-bg-menu ul li{
     border-bottom: 2px solid transparent;
@@ -229,12 +264,14 @@ body{
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
 }
 .ft-text-contain{
     width: 80%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
+    box-sizing: border-box;
 }
 .ft-row-container{
     display: -webkit-flex;
@@ -245,18 +282,20 @@ body{
     width: 50%;
     max-height: auto;
     text-align: left;
-
+    box-sizing: border-box;
 }
 .ft-row-container .ft-row ul {
     list-style: none;
+    box-sizing: border-box;
 }
+
 /*footer ul*/
 .ft-row-container .ft-row ul#ft-ul li{
     padding: 8px;
 }
 .ft-row-container .ft-row ul#ft-ul li a:hover{
     text-decoration: underline;
-    text-decoration-color: pink;
+    text-decoration-color: #23ccf9;
 }
 .ft-row-container .ft-row ul li a{
     font-size: 14px;
@@ -294,6 +333,7 @@ body{
 /*copy right*/
 .cp-right p{
     color: white;
+    margin: 0;
 }
 /*chat style*/
 .chat-container{
@@ -306,6 +346,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+    z-index: 50;
     
 }
 .chat-container:hover{
@@ -337,18 +378,32 @@ body{
 .chat-form input[type = "submit"]:hover{
     background-color: #5a5f63;
 }
-
+@media (max-width: 938px){
+    .nav-bg ul{
+        display: none;
+    }
+    .full-bg-menu ul li.li-d{
+        display: block;
+    }
+    .abt2,.contact-container{
+        width: 100% !important;
+    }
+    .ft-row-container{
+        display: block;
+    }
+    .ft-row-container .ft-row{
+        width: 100%;
+    }
+}
 @media  (min-width: 768px) and (max-width: 895px){
     .ct-boxes{
         display: block;
     }
 }
 @media  (min-width: 480px) and (max-width: 768px){
-    .nav-bg ul{
-        display: none;
-    }
-    .full-bg-menu ul li.li-d{
-        display: block;
+   
+    .logo span a{
+        font-size: 20px;
     }
     .abt-bg{
         height: auto;
@@ -406,21 +461,37 @@ body{
 }
 @media (max-width: 480px){
     .header{
-        width: 500px;
+        height:500px ;
     }
     body{
         font-size: 12px;
     }
-    .nav-bg ul{
-        display: none;
+    .nav-bg{
+        height: 80px;
     }
-    .full-bg-menu ul li.li-d{
-        display: block;
+    .logo {
+        width: 200px;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .logo span a{
+        font-size: 14px;
+    }
+    .slide-caption h1{
+        font-size: 34px !important;
+        color: #ffffff;
+    }
+   .prev, .next {
+        position: absolute;
+        top: 30% !important;
     }
     .abt-bg{
         height: auto;
         background-color: white;
     }
+
     .abt-bg-white{
         width: 100%;
         box-shadow: 0 0 0 transparent;
@@ -429,7 +500,7 @@ body{
         display: block;
     }
     .s-row{
-        width: 100%;
+        width: 80%;
         margin: 10px auto;
     } 
     .ft-container{

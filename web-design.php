@@ -17,6 +17,9 @@
     <!--my style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!--our logo-->
+    <link rel="icon" href="img/logo/logo.png" type="image/gif" sizes="16x16">
+
     <style type="text/css">
       .header-bg{
           background-image: url("img/Website-Designing12.jpg");
@@ -33,7 +36,7 @@
         <!--my navigation-->
         <?php include "nav.php";?>
         <div class="header-bg">
-            <div class="full-bg"></div>
+        <div class="fs"></div>
              <div class="header-text">
                 <h1 style="color:white">WEB DESIGN</h1>
             </div>
@@ -46,8 +49,8 @@
             <div class="abt-text-contain2">
                 <p>The appearance of your website make strong impression on the image of your company. When you own a business, your website is one of your most important mediums that can be used to reach new customers and generate more leads for your business. Without a high quality website that attracts visitors and provides you with a way to capture information, you are not using the internet’s power to its full potential. It is more important when you are concern about exploring your business world wide. </p>
                 <p>We are best web designing company in Kakinada providing clients with stylish and impressive web designs. We offer unique and inexpensive website designs that sells your business. As the technology is running trends and techniques for web designing is also changing with it. With vast majority of internet users are now shifting from computers to smart phones or tabs as their preferred medium of accessing the internet. </p>
-                <p>Here comes the importance of responsive web designing. Here at Zenith, we are passionate about web designing and our professional web designers are capable of designing new responsive websites and at the same time they can also modify your ordinary website and make it responsive. Our aim is to develop and deliver an optimise website experience on devices with different widths and different solutions.</p>
-                <p>Zenith have a young and creative team of web designers with sound knowledge in the latest web designing tools and techniques. Our professionally qualified web designers are the best in the best web designers in the industry today.</p>
+                <p>Here comes the importance of responsive web designing. Here at Vcan, we are passionate about web designing and our professional web designers are capable of designing new responsive websites and at the same time they can also modify your ordinary website and make it responsive. Our aim is to develop and deliver an optimise website experience on devices with different widths and different solutions.</p>
+                <p>Vcan have a young and creative team of web designers with sound knowledge in the latest web designing tools and techniques. Our professionally qualified web designers are the best in the best web designers in the industry today.</p>
 
                 <h2>We provide :</h2>
                 <ul>
