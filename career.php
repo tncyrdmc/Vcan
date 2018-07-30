@@ -91,14 +91,14 @@
             <div class="contact-text">
                 <div class="form-container">
                     <p>Fill your informations bellow:</p>
-                    <form action="" method="post">
+                    <form method="post" enctype="multipart/form-data" id="career-form">
                          <div>
                              <label>Full Name</label><br>
                              <input type="text" name="name" id="name">
                         </div>
                         <div>
                              <label>Mobile No</label><br>
-                             <input type="text" name="company" id="company">
+                             <input type="text" name="phone" id="phone">
                         </div>
                          <div>
                              <label>Your Email</label><br>
@@ -106,15 +106,15 @@
                         </div>
                         <div>
                             <label>Your Address</label><br>
-                            <textarea></textarea>
+                            <textarea id="address"></textarea>
                         </div>
                         <div>
-                             <label>Qulifications</label><br>
-                             <input type="text" name="mail" id="mail">
+                             <label>Qualifications</label><br>
+                             <input type="text" name="qualification" id="qualification">
                         </div>
                         <div style="margin-bottom:20px">
                              <label>Your Resume</label><br>
-                             <input type="file" name="mail" id="mail">
+                             <input type="file" name="file" id="resume">
                         </div>
                         <div>
                             <input type="submit" name="" value="Submit">
@@ -130,5 +130,55 @@
     </script>
     <!--footer of the page-->
 	<?php include "footer.php";?>
+    <script type="text/javascript">
+
+function sendData(){
+
+   let name = document.getElementById("name");
+   let phone = document.getElementById("phone");
+   let mail = document.getElementById("mail");
+   let address = document.getElementById("address");
+   let qualification = document.getElementById('qualification');
+   let resume = document.getElementById('resume');
+
+   let xhr = new XMLHttpRequest();
+
+   xhr.onload = function(){
+     if (this.status == 200) {
+       document.getElementById("hint").textContent = this.responseText;
+     }
+     
+   }
+
+//    xhr.open("GET","php/contact.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&message="+message.value,true);
+//    xhr.send();
+alert(resume.value);
+   name.value = "";
+   mail.value = "";
+   phone.value = "";
+   address.value = "";
+   qualification.value = "";
+   resume.value = "";
+ }
+
+
+ var careerForm = document.getElementById("career-form");
+
+ if (careerForm.addEventListener) {
+
+   careerForm.addEventListener('submit',function(e){
+       e.preventDefault();
+       sendData();
+       
+   },false);
+
+ }else{
+
+   careerForm.attachEvent('onsubmit',function(e){
+       e.returnValue = false;
+       sendData();
+   },false);
+ }
+</script>
 </body>
 </html>

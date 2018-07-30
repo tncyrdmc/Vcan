@@ -13,7 +13,7 @@
 			    	<div class="ft-row">
 					    <ul id="com">
 						    <li><i class="material-icons" style="font-size:34px;color:#23ccf9">phone</i>+919705565777</li>
-			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">email</i>hello@efelle.com</li>
+			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">email</i>hello@evcansoftsol.com</li>
 			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">location_on</i>Fci colony, vigneswar nagar, valasapakala. Kakinada - 533005 E.G.DT Andhrapradesh</li>
 			    	    </ul>
 					</div>
@@ -33,7 +33,7 @@
 			    </div>
     
 			    <div class="cp-right">
-			    	<p>2018 vcan, inc. All rights reserved - Privacy Policy </p>
+			    	<p>2018 vcan software solutions,All rights reserved - Privacy Policy </p>
 			    </div>
 			</div>
 		</div>
@@ -43,16 +43,18 @@
 	<div id="chat-container" class="chat-container">
 	    <span style="margin-right:60%;position: absolute;left: 0;"><a href="#" id="chat-bt-close">X</a></span>
 		<span><a href="" id="chat-bt-open"><img src="img/logo/logo.png" alt="" style="width:40px; height:40px; padding-top:8px;"></a></span>
+		<p id="chat-hint"></p>
+
 		<div class="chat-form" >
-		    <form action="" id="chat-form">
+		    <form id="chat-form">
 		    	<div>
-		    		<input type="text" name="name" placeholder="Name" id="">				
+		    		<input type="text" name="name" placeholder="Name" id="chat-name">				
 				</div>
 				<div>
-		    		<input type="mail" name="mail" placeholder="Mail" id="">				
+		    		<input type="mail" name="mail" placeholder="Mail" id="chat-mail">				
 		    	</div>
 		    	<div>
-		    		<textarea name="message" id="" cols="30" rows="10" placeholder="Message" ></textarea>			
+		    		<textarea name="message" id="chat-message" cols="30" rows="10" placeholder="Message" ></textarea>			
 		    	</div>
 		    	<div>
 		    		<input type="submit" name="submit" id="" value="Sent">				
@@ -61,8 +63,7 @@
 		</div>
 	</div>
 
-
 	<!---->
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/animate.js"></script>
-	<script type="text/javascript" src="js/chat_form_validation.js"></script>
+	<script type="text/javascript" src="js/chat_form.js"></script>

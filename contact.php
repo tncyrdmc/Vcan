@@ -72,7 +72,7 @@
  }
 
 
-    </style>
+ </style>
 </head>
 <body>
     <header>
@@ -92,14 +92,15 @@
                 <h2>Let's build your company a digital strategy that works as hard as you.</h2>
                 <div class="form-container">
                     <p>Fill your contact informations :</p>
-                    <form action="" method="post">
+                    <h1><span id="hint" style="color: green"></span></h1>
+                    <form id="content-form">
                          <div>
                              <label>Your Name</label><br>
                              <input type="text" name="name" id="name">
                         </div>
                         <div>
                              <label>Mobile No</label><br>
-                             <input type="text" name="company" id="company">
+                             <input type="text" name="phone" id="phone">
                         </div>
                          <div>
                              <label>Your Email</label><br>
@@ -107,7 +108,7 @@
                         </div>
                         <div>
                             <label>Your Message</label><br>
-                            <textarea></textarea>
+                            <textarea id="message"></textarea>
                         </div>
                         <div>
                             <input type="submit" name="" value="Submit">
@@ -127,5 +128,51 @@
     </script>
     <!--footer of the page-->
 	<?php include "footer.php";?>
+   <script type="text/javascript">
+
+   function sendData(){
+
+      let name = document.getElementById("name");
+      let mail = document.getElementById("mail");
+      let phone = document.getElementById("phone");
+      let message = document.getElementById("message");
+
+      let xhr = new XMLHttpRequest();
+
+      xhr.onload = function(){
+        if (this.status == 200) {
+          document.getElementById("hint").textContent = this.responseText;
+        }
+        
+      }
+
+      xhr.open("GET","php/contact.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&message="+message.value,true);
+      xhr.send();
+
+      name.value = "";
+      mail.value = "";
+      phone.value = "";
+      message.value = "";
+    }
+
+
+    var contact = document.getElementById("content-form");
+
+    if (contact.addEventListener) {
+
+      contact.addEventListener('submit',function(e){
+          e.preventDefault();
+          sendData();
+          
+      },false);
+
+    }else{
+
+      contact.attachEvent('onsubmit',function(e){
+          e.returnValue = false;
+          sendData();
+      },false);
+    }
+ </script>
 </body>
 </html>

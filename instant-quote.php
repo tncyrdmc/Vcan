@@ -48,7 +48,8 @@
             <div class="contact-text">
                 <div class="form-container">
                     <p>We're here for you! Let us help you to grow your business Just fill out the form below and we will get right back to you:</p>
-                    <form action="" method="post">
+                    <h1 id="hint" style="color: green"></h1>
+                    <form id="quote-form">
                          <div>
                              <label>Name</label><br>
                              <input type="text" name="name" id="name">
@@ -63,26 +64,27 @@
                         </div>
                         <p>I'm looking for  (check all that apply):</p>
                         <ul>
-                            <li><input type="checkbox" name="">WEB DEVELOPMENT</li>
-                            <li><input type="checkbox" name="">WEB DESIGN</li>
-                            <li><input type="checkbox" name="">WEB HOSTING SERVICES</li>
-                            <li><input type="checkbox" name="">BULK SMS</li>
-                            <li><input type="checkbox" name="">VOICE SMS</li>
-                            <li><input type="checkbox" name="">EMAIL MARKETING</li>
-                            <li><input type="checkbox" name="">SEARCH ENGINE OPTIMIZATION</li>
-                            <li><input type="checkbox" name="">PPC MANAGMENT</li>
-                            <li><input type="checkbox" name="">SOCIAL MEDIA MARKETING</li>
-                            <li><input type="checkbox" name="">SOCIAL MEDIA OPTIMIZATION</li>
-                            <li><input type="checkbox" name="">LINK BUILDING</li>
-                            <li><input type="checkbox" name="">CONTENT MARKETING</li>
-                            <li><input type="checkbox" name="">LOGO DESIGN</li>
-                            <li><input type="checkbox" name="">SEO COPYWRITING</li>
-                            <li><input type="checkbox" name="">BROCHURE DESIGN</li>
-                            <li><input type="checkbox" name="">2D ANIMATION</li>
+                            <li><input type="checkbox" name="service" value="web development">WEB DEVELOPMENT</li>
+                            <li><input type="checkbox" name="service" value="web design">WEB DESIGN</li>
+                            <li><input type="checkbox" name="service" value="web hosting services">WEB HOSTING SERVICES</li>
+                            <li><input type="checkbox" name="service" value="bulk sms">BULK SMS</li>
+                            <li><input type="checkbox" name="service" value="voice sms">VOICE SMS</li>
+                            <li><input type="checkbox" name="service" value="email marketing">EMAIL MARKETING</li>
+                            <li><input type="checkbox" name="service" value="search engine optimization">SEARCH ENGINE OPTIMIZATION</li>
+                            <li><input type="checkbox" name="service" value="ppc managment">PPC MANAGMENT</li>
+                            <li><input type="checkbox" name="service" value="social media marketing">SOCIAL MEDIA MARKETING</li>
+                            <li><input type="checkbox" name="service" value="social media optimization">SOCIAL MEDIA OPTIMIZATION</li>
+                            <li><input type="checkbox" name="service" value="link building">LINK BUILDING</li>
+                            <li><input type="checkbox" name="service" value="content marketing">CONTENT MARKETING</li>
+                            <li><input type="checkbox" name="service" value="logo design">LOGO DESIGN</li>
+                            <li><input type="checkbox" name="service" value="seo copywriting">SEO COPYWRITING</li>
+                            <li><input type="checkbox" name="service" value="brochure design">BROCHURE DESIGN</li>
+                            <li><input type="checkbox" name="service" value="2d animation">2D ANIMATION</li>
+                            <li><input type="checkbox" name="service" value="3d animation">3D ANIMATION</li>
                         </ul>
                         <div>
                             <label>Tell More About The Project</label>
-                            <textarea></textarea>
+                            <textarea id="message"></textarea>
                         </div>
                         <div>
                             <input type="submit" name="" value="Submit">
@@ -96,5 +98,73 @@
 
     <!--footer of the page-->
     <?php include "footer.php";?>
+   <script type="text/javascript">
+
+   function sendData(){
+
+      let name = document.getElementById("name");
+      let mail = document.getElementById("mail");
+      let phone = document.getElementById("phone");
+      let service = document.getElementsByName("service");
+      let services = "";
+      let message = document.getElementById("message");
+
+
+      let xhr = new XMLHttpRequest();
+
+      xhr.onload = function(){
+        if (this.status == 200) {
+          document.getElementById("hint").textContent = this.responseText;
+        }
+        
+      }
+
+      for (let i = 0; i < service.length; i++){
+        if (service[i].checked) {
+
+          services += service[i].value + ","; 
+
+        }
+      }
+
+      xhr.open("GET","php/quote.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&message="+message.value+"&services="+services,true);
+      xhr.send();
+
+     ////reset all the input fields.......
+     for (let i = 0; i < service.length; i++){
+        if (service[i].checked) {
+
+          service[i].checked = false; 
+
+        }
+      }
+      name.value = "";
+      mail.value = "";
+      phone.value = "";
+      message.value = "";
+
+  }
+
+
+    var quote = document.getElementById("quote-form");
+
+    if (quote.addEventListener) {
+
+      quote.addEventListener('submit',function(e){
+          e.preventDefault();
+          sendData();
+          
+      },false);
+
+    }else{
+
+      quote.attachEvent('onsubmit',function(e){
+          e.returnValue = false;
+          sendData();
+      },false);
+    }
+
+
+ </script>
 </body>
 </html>
