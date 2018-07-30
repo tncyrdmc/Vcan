@@ -5,17 +5,18 @@
      let message = document.getElementById("chat-message");
 
      let xhr = new XMLHttpRequest();
+     
      xhr.onload = function(){
+
        if (this.status == 200) {
-         // document.getElementById("chat-hint").textContent = this.responseText;
-         alert(this.responseText);
+         document.getElementById("chat-hint").textContent = this.responseText;
        }else{
          alert('failed');
        }
        
      }
 
-     xhr.open("GET","../php/chat.php?name="+name.value+"&mail="+mail.value+"&message="+message.value,true);
+     xhr.open("GET","../php/chat.php?name=" +name.value+ "&mail=" +mail.value+ "&message=" +message.value, true);
      xhr.send();
 
      name.value = "";
@@ -23,19 +24,19 @@
      message.value = "";
 }
 
-
 var chatForm = document.getElementById("chat-form");
 
 if (chatForm.addEventListener) {
 
   chatForm.addEventListener('submit',function(e){
+
       e.preventDefault();
       chatData();
       
   },false);
 
 }else{
-  chatFormt.attachEvent('onsubmit',function(e){
+  chatForm.attachEvent('onsubmit',function(e){
       e.returnValue = false;
       chatData();
   },false);

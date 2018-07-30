@@ -40,7 +40,7 @@ $(function(){
 		}
 
 
-		if ($top > 400){
+		if ($top > 350){
 		      $aboutTxt.delay(400).fadeIn();
 		}
 		

@@ -23,7 +23,7 @@
     <title>VCANSOFTSOL</title>
     <style type="text/css">
     .header-bg{
-        background-image: url("img/Contact-Us-1349x378.jpg");
+        background-image: url("img/legal-career-path.jpg");
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;
@@ -145,14 +145,15 @@ function sendData(){
 
    xhr.onload = function(){
      if (this.status == 200) {
-       document.getElementById("hint").textContent = this.responseText;
+    //    document.getElementById("hint").textContent = this.responseText;
+    alert(this.responseText);
      }
      
    }
 
-//    xhr.open("GET","php/contact.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&message="+message.value,true);
-//    xhr.send();
-alert(resume.value);
+   xhr.open("GET","php/career.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&address="+address.value+"&qualification="+qualification.value+"&resume="+resume.value ,true);
+   xhr.send();
+   ///reset
    name.value = "";
    mail.value = "";
    phone.value = "";

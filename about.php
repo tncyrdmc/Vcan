@@ -21,7 +21,7 @@
 
     <style type="text/css">
         .header-bg{
-            background-image: url("img/jeremy-perkins-291861-unsplash.jpg");
+            background-image: url("img/company-and-about-us_0.jpg");
             background-position: bottom;
             background-size: cover;
             background-repeat: no-repeat;

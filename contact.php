@@ -23,7 +23,7 @@
     <title>CONTACT US</title>
     <style type="text/css">
     .header-bg{
-        background-image: url("img/Contact-Us-1349x378.jpg");
+        background-image: url("img/o-CITY-INTERNET-CONNECTIONS-facebook.jpg");
         background-position: bottom;
         background-size: cover;
         background-repeat: no-repeat;

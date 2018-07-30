@@ -7,19 +7,16 @@ $message = $_GET["message"];
 
 $conn = new mysqli(server, user, password,database);
 
-// // Check connection
-// if ($conn->connect_error) {
-//     die("Connection failed: " . $conn->connect_error);
-// } 
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 
-// $q = "INSERT INTO contact (name,email,phone_no,message) VALUES('$name','$mail','$phone','$message')";
+$q = "INSERT INTO chat (name,mail,message) VALUES('$name','$mail','$message')";
 
-// if ($conn->query($q) === true) {
-// 	echo "Sent";
-// }else{
-// 	echo "failed";
-// }
-
-
-echo $name ." ".$mail." ".$message;
+if ($conn->query($q) === true) {
+	echo "Sent";
+}else{
+	echo "failed";
+}
 ?>

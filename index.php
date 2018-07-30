@@ -125,7 +125,7 @@
       </div>
 
       <div class="mySlides">
-        <img src="img/service-bg/chat.png">
+        <img src="img/service-bg/courses-for-small-business-owners.jpg">
         <div class="slide-caption">
           <h1>Bulk and Voice SMS</h1>
         </div>
