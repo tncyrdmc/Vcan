@@ -13,7 +13,7 @@
 			    	<div class="ft-row">
 					    <ul id="com">
 						    <li><i class="material-icons" style="font-size:34px;color:#23ccf9">phone</i>+919705565777</li>
-			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">email</i>hello@evcansoftsol.com</li>
+			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">email</i>hello@vcansoftsol.com</li>
 			    	    	<li><i class="material-icons" style="font-size:34px;color:#23ccf9">location_on</i>Fci colony, vigneswar nagar, valasapakala. Kakinada - 533005 E.G.DT Andhrapradesh</li>
 			    	    </ul>
 					</div>
@@ -43,8 +43,6 @@
 	<div id="chat-container" class="chat-container">
 	    <span style="margin-right:60%;position: absolute;left: 0;"><a href="#" id="chat-bt-close">X</a></span>
 		<span><a href="" id="chat-bt-open"><img src="img/logo/logo.png" alt="" style="width:40px; height:40px; padding-top:8px;"></a></span>
-		<p id="chat-hint"></p>
-
 		<div class="chat-form" >
 		    <form id="chat-form">
 		    	<div>

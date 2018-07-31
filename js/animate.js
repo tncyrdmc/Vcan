@@ -21,11 +21,11 @@ $(function(){
 	var $aboutTxt = $('.abt-bg-white');
 	$aboutTxt.hide();
     
-    ///show nav on scroll down
+	///show nav on scroll down
 	$window.on('scroll',function(){
 		var $top = $(this).scrollTop();
 
-		if ($top > 50) {
+		if ($top > 10) {
 			$nav.css({
 				'background-color': '#23ccf9',
 				'box-shadow': '0px 2px 5px rgba(0, 0, 0, 0.2)'

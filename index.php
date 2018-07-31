@@ -104,14 +104,14 @@
     <div class="slideshow-container">
       <!-- Full-width slides/quotes -->
       <div class="mySlides">
-        <img src="img/rawpixel-594848-unsplash.jpg">
+        <img src="img/laptop-3190194_1920.jpg">
         <div class="slide-caption">
           <h1></h1>
         </div>
       </div>
 
       <div class="mySlides">
-        <img src="img/goran-ivos-307271-unsplash.jpg">
+        <img src="img/photo-1488590528505-98d2b5aba04b.jpg">
         <div class="slide-caption">
           <h1>Web Development</h1>
         </div>
@@ -168,7 +168,7 @@
 			<div class="abt-bg-white">
 				<div class="abt-text">
 					<h2>ABOUT US</h2>
-					<p><b>Vcan</b> Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares. <span><a href="about.php">Read More</a></span></p>
+					<p><b>Vcan Software Solutions</b>  was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares. <span><a href="about.php">Read More</a></span></p>
 				</div>
 			</div>
 		</div>

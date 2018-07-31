@@ -39,7 +39,7 @@
         <div class="header-bg">
         <div class="fs"></div>
             <div class="header-text">
-                <h1 style="color:white">ABOUT VCAN SOFTWARE SOLUTIONS</h1>
+                <h1 style="color:white">VCAN SOFTWARE SOLUTIONS</h1>
             </div>
         </div>
     </header>
@@ -49,7 +49,7 @@
         <div class="abt2">
             <div class="abt-text-contain2">
                 <p><b>Vcan</b> Software Solutions was founded in Kakinada Andhra Pradesh, which  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk and Voice SMS, Whatsapp & Email Marketing softwares.</p>
-                <p>We are considered one of the best and the leading in Kakinada, Andhra Pradesh with our main Aim is being complete customer satisfaction. And We also Providing the Services all around the Andhra Pradesh(Vijayawada,Kakinada,Rajahmundry,Vizianagaram,Srikakulam,Guntur etc), Telangana(Hyderabad) & All over India .</p>
+                <p>We are considered one of the best and the leading in Kakinada, Andhra Pradesh with our main Aim is being complete customer satisfaction.And We also Providing the Services all around the Andhra Pradesh.</p>
                 <p>Our team is a complete and strategic mix of professionals from Technology, Marketing and Business Management. Our team of professionals use the most up to date technology for any of your need related to Softwares, Websites, E-commerce, Web Based Softwares and Solutions, PPC etc. We give unique and personalised web based solutions with quality at competitive market rates.</p>
 
                 <h2 style="color: #23ccf9">Why US?</h2>
