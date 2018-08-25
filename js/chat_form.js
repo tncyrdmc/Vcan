@@ -1,23 +1,26 @@
+
   function chatData(){
 
      let name = document.getElementById("chat-name");
      let mail = document.getElementById("chat-mail");
      let message = document.getElementById("chat-message");
 
-     let xhr = new XMLHttpRequest();
+     let xhrObj = new XMLHttpRequest();
      
-     xhr.onload = function(){
+     xhrObj.onload = function(){
 
        if (this.status == 200) {
-         document.getElementById("chat-hint").textContent = this.responseText;
+
+         alert(this.responseText);
+
        }else{
          alert('failed');
        }
        
      }
 
-     xhr.open("GET","../php/chat.php?name=" +name.value+ "&mail=" +mail.value+ "&message=" +message.value, true);
-     xhr.send();
+     xhrObj.open("GET","../php/chat.php?name=" +name.value+ "&mail=" +mail.value+ "&message=" +message.value, true);
+     xhrObj.send();
 
      name.value = "";
      mail.value = "";
@@ -36,10 +39,13 @@ if (chatForm.addEventListener) {
   },false);
 
 }else{
+
   chatForm.attachEvent('onsubmit',function(e){
       e.returnValue = false;
       chatData();
+
   },false);
+
 }
 
 

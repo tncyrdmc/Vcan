@@ -139,7 +139,7 @@ function sendData(){
    let mail = document.getElementById("mail");
    let address = document.getElementById("address");
    let qualification = document.getElementById('qualification');
-   let resume = document.getElementById('resume');
+   let resume = document.getElementById('resume').files[0];
 
    let xhr = new XMLHttpRequest();
 
@@ -150,8 +150,7 @@ function sendData(){
      }
      
    }
-
-   xhr.open("GET","php/career.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&address="+address.value+"&qualification="+qualification.value+"&resume="+resume.value ,true);
+   xhr.open("GET","php/career.php?name="+name.value+"&phone="+phone.value+"&mail="+mail.value+"&address="+address.value+"&qualification="+qualification.value+"&resume="+resume,true);
    xhr.send();
    ///reset
    name.value = "";

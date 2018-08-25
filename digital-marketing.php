@@ -65,7 +65,7 @@
 
                 <h2 id="#SEO">SEARCH ENGINE OPTIMIZATION</h2>
 
-                <p>Through providing highly effective and result oriented SEO services.Zenith software Solutions has become best SEO company in Andhra Pradesh for availing SEO services. An effective SEO campaign means to get the targeted website within the topmost rankings on the first page of the search engine result pages (SERPs) for the relevant keywords. Google which is the most popular search engine in the internet world considers more than 300 parameters while deciding the ranking of the given web page for the respective keywords. Similarly, other search engines like Bing, Yahoo too follow similar criteria for deciding the rank of the particular web page or URL. Also, each of them is evolving dynamically with each passing day for providing the best quality and highly relevant results on the relevant keywords to the online users.</p>
+                <p>Through providing highly effective and result oriented SEO services.Vcan software Solutions has become best SEO company in Andhra Pradesh for availing SEO services. An effective SEO campaign means to get the targeted website within the topmost rankings on the first page of the search engine result pages (SERPs) for the relevant keywords. Google which is the most popular search engine in the internet world considers more than 300 parameters while deciding the ranking of the given web page for the respective keywords. Similarly, other search engines like Bing, Yahoo too follow similar criteria for deciding the rank of the particular web page or URL. Also, each of them is evolving dynamically with each passing day for providing the best quality and highly relevant results on the relevant keywords to the online users.</p>
 
                 <p>For an effective SEO, the technical experts have to anticipate and fulfill these parameters in an organic way, so that the targeted URL or the web page gets better ranking in SERPs of the relevant keywords. The SEO experts have to act in such a way for the particular web page so that they can attract more and more users on that web page. These acts comprise dozens of technical as well as creative SEO techniques to be followed which make the web page more appealing to attract more traffic of the users on the web page which ultimately assists in gaining better ranking on the relevant keywords. </p>
 
@@ -84,7 +84,7 @@
 
                 <h4>How we do :</h4>
 
-                <p>We adhere to the best process/ techniques for SEO prescribed by the best search engine “Google”. DigiPanda consulting (Top SEO services provider Company) caters to the customers who require and full service approach to search engine optimization. Have a look at our process.</p>
+                <p>We adhere to the best process/ techniques for SEO prescribed by the best search engine “Google”.Vcan consulting (Top SEO services provider Company) caters to the customers who require and full service approach to search engine optimization. Have a look at our process.</p>
 
                 <h4>Keywords Reseach</h4>
 

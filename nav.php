@@ -13,7 +13,7 @@
 			</nav>
         </div>
         <div class="menu-btt">
-        	<a href="#" id="open-bt"><i class="material-icons" style="font-size:36px;color: white">menu</i></a>
+        	<a href="#" id="open-bt"><i class="material-icons" style="font-size:36px;color: rgb(2, 84, 177);">menu</i></a>
         </div>
 </div>
 <div class="full-bg-menu">

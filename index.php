@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Vcan Software Solutions was founded in Kakinada Andhra Pradesh, We  specializes in Web Development, Website Design Services, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services (SEO, SEM, SMO, SMM), Animation Designs(2d, 3d), Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk & Voice SMS, Whatsapp & Email Marketing softwares.">
-  <meta name="keywords" content="Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
+  <meta name="keywords" content="Vcan Software Solutions, Web Development, Website Design, Web Hosting, Mobile Website Designs, Mobile Applications Development, Digital Marketing Services, SEO, SEM, SMO, SMM, Animation Designs 2d, 3d, Graphic Designing, branding, logo designs, Brochures, Creative Designs, Bulk  Voice SMS, Whatsapp and Email Marketing softwares">
   <meta name="author" content="Deng Beny Thon, email dengbeny123@gmail.com">
 
 	<!--Icons-->
@@ -30,6 +30,7 @@
           width: 100%;
           height: inherit;
           display: none;
+          margin-top: 80px;
           text-align: center;
         }
         .mySlides img{
@@ -43,11 +44,12 @@
           height: 200px;
           padding: 10px;
           position: absolute;
-          top: 20%;
+          top: 30%;
           box-sizing: border-box;
           z-index: 50;
         }
-        .slide-caption h1{
+        .slide-caption h1 a{
+          text-decoration: none;
           font-size: 74px;
           color: #ffffff;
         }
@@ -104,7 +106,7 @@
     <div class="slideshow-container">
       <!-- Full-width slides/quotes -->
       <div class="mySlides">
-        <img src="img/laptop-3190194_1920.jpg">
+        <img src="img/michal-kubalczyk-505207-unsplash.jpg">
         <div class="slide-caption">
           <h1></h1>
         </div>
@@ -113,42 +115,42 @@
       <div class="mySlides">
         <img src="img/photo-1488590528505-98d2b5aba04b.jpg">
         <div class="slide-caption">
-          <h1>Web Development</h1>
+          <h1><a href="web-development.php">Web Development</a></h1>
         </div>
       </div>
 
       <div class="mySlides">
         <img src="img/rami-al-zayat-170349-unsplash.jpg">
         <div class="slide-caption">
-          <h1>Mobile Apps Development</h1>
+          <h1><a href="mobile-apps-dev.php">Mobile Apps Development</a></h1>
         </div>
       </div>
 
       <div class="mySlides">
         <img src="img/service-bg/courses-for-small-business-owners.jpg">
         <div class="slide-caption">
-          <h1>Bulk and Voice SMS</h1>
+          <h1><a href="bulk-sms.php">Bulk and Voice SMS</a></h1>
         </div>
       </div>
 
       <div class="mySlides">
         <img src="img/technologies-that-could-change-digital-marketing-forever.jpg">
         <div class="slide-caption">
-          <h1>Digital Marketing</h1>
+          <h1><a href="digital-marketing.php">Digital Marketing</a></h1>
         </div>
       </div>
 
       <div class="mySlides">
         <img src="img/alice-achterhof-85968-unsplash.jpg">
         <div class="slide-caption">
-          <h1>Graphics Design</h1>
+          <h1><a href="graphics-design.php">Graphics Design</a></h1>
         </div>
       </div>
 
        <div class="mySlides">
         <img src="img/email-3249062_1280.png">
         <div class="slide-caption">
-          <h1>Email and Whatsapp Marketing</h1>
+          <h1><a href="email-and-whatsapp-marketing.php">Email and Whatsapp Marketing</a></h1>
         </div>
       </div>
 
@@ -270,15 +272,15 @@
 	</section>
 
 	<!--Recent works-->
-	<section id="recent-work">
+	<!-- <section id="recent-work">
 		<div class="rt-wt-container">
 		<h2>RECENT WORKS</h2>
 
 		</div>
-	</section>
+	</section> -->
 
 	<!--What our costumer say about us-->
-	<section id="ct-fb">
+	<!-- <section id="ct-fb">
 		<div class="ct-fb">
             <h2>THEY SAY ABOUT US</h2>
             <div class="ct-boxes"> 
@@ -296,7 +298,7 @@
                  </div>
             </div>
 		</div>
-	</section>
+	</section> -->
 
 
 	<!--footer of the page-->

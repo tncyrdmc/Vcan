@@ -157,13 +157,11 @@
       },false);
 
     }else{
-
       quote.attachEvent('onsubmit',function(e){
           e.returnValue = false;
           sendData();
       },false);
     }
-
 
  </script>
 </body>

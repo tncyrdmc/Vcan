@@ -20,17 +20,16 @@ $(function(){
 
 	var $aboutTxt = $('.abt-bg-white');
 	$aboutTxt.hide();
-    
+
 	///show nav on scroll down
 	$window.on('scroll',function(){
 		var $top = $(this).scrollTop();
-
 		if ($top > 10) {
 			$nav.css({
-				'background-color': '#23ccf9',
+				'background-color': 'white',
 				'box-shadow': '0px 2px 5px rgba(0, 0, 0, 0.2)'
 			});
-			
+
 		}else{
 
 			$nav.css({
@@ -39,11 +38,10 @@ $(function(){
 			});
 		}
 
-
 		if ($top > 350){
 		      $aboutTxt.delay(400).fadeIn();
 		}
-		
+
     });
 
 	//chat form toggle
@@ -59,15 +57,15 @@ $(function(){
 		e.preventDefault();
 		$chatForm.delay(400).slideDown();
 		$chatButtonClose.parent().delay(700).fadeIn();
-		
-		
+
+
 	});
 	//close chat
 	$chatButtonClose.on('click',function(e){
 		e.preventDefault();
 		$chatButtonClose.parent().fadeOut();
 		$chatForm.delay(400).slideUp();
-		
+
 	});
 
 	var $signUpForm = $('#sign-up');
@@ -80,5 +78,5 @@ $(function(){
 		$signUpForm.delay(400).slideToggle();
 	});
 
-	
+
 });

@@ -1,13 +1,11 @@
 <?php 
 require "../config/config.php";
-
-$name = $_GET["name"];
-$phone = $_GET["phone"];
-$mail = $_GET["mail"];
-$address = $_GET["address"];
-$qualification = $_GET["qualification"];
-//$resume = $_FILES["resume"]["name"];
-
+$name = trim($_GET["name"]);
+$phone = trim($_GET["phone"]);
+$mail = trim($_GET["mail"]);
+$address = trim($_GET["address"]);
+$qualification = trim($_GET["qualification"]);
+$resume = $_FILES["resume"]["name"];
 
 $conn = new mysqli(server, user, password,database);
 
@@ -24,5 +22,5 @@ if ($conn->connect_error) {
 // 	echo "failed";
 // }
 
-echo $name ." ".$mail." ".$phone." ".$address." ".$qualification;
+echo $name ." ".$mail." ".$phone." ".$address." ".$qualification. " " .$resume;
 ?>
